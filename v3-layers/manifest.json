@@ -152,10 +152,6 @@
         {
           "name": "flower",
           "file": "acc-flower.png"
-        },
-        {
-          "name": "earring",
-          "file": "acc-earring.png"
         }
       ]
     }

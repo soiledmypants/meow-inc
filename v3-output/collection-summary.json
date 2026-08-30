@@ -4,8 +4,8 @@
   "seed": 28,
   "canvas": 1024,
   "base_image_uri": "ipfs://REPLACE_AFTER_UPLOAD/",
-  "possible_combinations": 26880,
-  "generated_at": "2026-08-30T19:27:53+00:00",
+  "possible_combinations": 17920,
+  "generated_at": "2026-08-30T19:30:37+00:00",
   "trait_counts": {
     "Background": {
       "periwinkle": 4,
@@ -48,9 +48,8 @@
       "round-lavender": 1
     },
     "Accessory": {
-      "None": 18,
-      "flower": 4,
-      "earring": 2
+      "None": 19,
+      "flower": 5
     }
   }
 }

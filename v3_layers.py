@@ -289,14 +289,6 @@ def acc_flower():
     return c.save("acc-flower.png")
 
 
-def acc_earring():
-    c = Pix()
-    c.rect(14, 40, 15, 41, (246, 200, 78))
-    c.px(14, 40, (255, 232, 150))
-    c.outline()
-    return c.save("acc-earring.png")
-
-
 BACKGROUNDS = [
     ("periwinkle", "#9aa4ea"), ("plasma violet", "#7e60ac"),
     ("mint", "#a8dcc0"), ("rose", "#e8a0b4"), ("butter", "#f2d488"),
@@ -339,8 +331,7 @@ def main():
             {"name": "round-gold", "file": glasses_round("round-gold", (226, 178, 76))},
             {"name": "shades", "file": glasses_shades()}]},
         {"name": "Accessory", "optional": True, "layers": [
-            {"name": "flower", "file": acc_flower()},
-            {"name": "earring", "file": acc_earring()}]},
+            {"name": "flower", "file": acc_flower()}]},
     ]
 
     manifest = {

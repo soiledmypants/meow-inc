@@ -44,7 +44,7 @@ WEIGHTS = {
     "Blush": {"None": 70, "blush": 30},
     "Glasses": {"None": 65, "round-lavender": 25, "shades": 18,
                 "round-gold": 15},
-    "Accessory": {"None": 60, "earring": 25, "flower": 20},
+    "Accessory": {"None": 70, "flower": 30},
 }
 
 
