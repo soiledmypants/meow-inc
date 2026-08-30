@@ -1,0 +1,89 @@
+{
+  "collection": "Meow Inc",
+  "size": 25,
+  "seed": 28,
+  "logical_size": 32,
+  "output_size": 1024,
+  "base_image_uri": "ipfs://REPLACE_AFTER_UPLOAD/",
+  "possible_combinations": 18432000,
+  "generated_at": "2026-08-30T14:05:08+00:00",
+  "trait_counts": {
+    "Background": {
+      "Deep Space": 4,
+      "Rose Nebula": 4,
+      "Hyperlane Teal": 6,
+      "Signal Mint": 3,
+      "Docking Bay": 2,
+      "Plasma Violet": 0,
+      "Aurora Night": 4,
+      "Sunrise Orbit": 2
+    },
+    "Animal": {
+      "Tabby Cat": 11,
+      "Ash Dog": 3,
+      "Honey Bear": 5,
+      "Snow Rabbit": 3,
+      "Red Fox": 3
+    },
+    "Eyes": {
+      "Steady": 7,
+      "Sideeye": 8,
+      "Sleepy": 5,
+      "Wide": 3,
+      "Serene": 1,
+      "Starry": 1
+    },
+    "Mouth": {
+      "Smile": 10,
+      "Line": 5,
+      "Grin": 3,
+      "Blep": 5,
+      "Frown": 2,
+      "Toothpick": 0
+    },
+    "Suit": {
+      "Navy Suit": 3,
+      "Charcoal Pinstripe": 5,
+      "Burgundy Suit": 3,
+      "Forest Suit": 4,
+      "Sky Suit": 5,
+      "Lavender Suit": 4,
+      "Trench Coat": 1,
+      "Midnight Tuxedo": 0
+    },
+    "Tie": {
+      "Red Tie": 4,
+      "Gold Tie": 7,
+      "Teal Tie": 4,
+      "Magenta Tie": 1,
+      "Candy Stripe Tie": 3,
+      "Royal Dot Tie": 2,
+      "Red Bow Tie": 2,
+      "Ink Bow Tie": 2
+    },
+    "Hat": {
+      "None": 8,
+      "Dock Beanie": 4,
+      "Flat Cap": 1,
+      "Bowler Hat": 4,
+      "Courier Cap": 4,
+      "Top Hat": 2,
+      "Comms Halo": 1,
+      "Gold Crown": 1
+    },
+    "Eyewear": {
+      "None": 14,
+      "Round Glasses": 7,
+      "Visor Shades": 2,
+      "Scanner Monocle": 1,
+      "Eye Patch": 1
+    },
+    "Accessory": {
+      "None": 14,
+      "Neck Chain": 4,
+      "Stud Earring": 1,
+      "Hoop Earring": 4,
+      "Cheek Star": 2
+    }
+  }
+}

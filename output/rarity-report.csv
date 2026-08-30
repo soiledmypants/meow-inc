@@ -1,0 +1,60 @@
+category,trait,weight,count,percent
+Background,Deep Space,100,4,16.0
+Background,Rose Nebula,90,4,16.0
+Background,Hyperlane Teal,90,6,24.0
+Background,Signal Mint,90,3,12.0
+Background,Docking Bay,80,2,8.0
+Background,Plasma Violet,60,0,0.0
+Background,Aurora Night,60,4,16.0
+Background,Sunrise Orbit,40,2,8.0
+Animal,Tabby Cat,100,11,44.0
+Animal,Ash Dog,100,3,12.0
+Animal,Honey Bear,100,5,20.0
+Animal,Snow Rabbit,100,3,12.0
+Animal,Red Fox,70,3,12.0
+Eyes,Steady,100,7,28.0
+Eyes,Sideeye,100,8,32.0
+Eyes,Sleepy,70,5,20.0
+Eyes,Wide,70,3,12.0
+Eyes,Serene,30,1,4.0
+Eyes,Starry,15,1,4.0
+Mouth,Smile,100,10,40.0
+Mouth,Line,100,5,20.0
+Mouth,Grin,60,3,12.0
+Mouth,Blep,50,5,20.0
+Mouth,Frown,50,2,8.0
+Mouth,Toothpick,20,0,0.0
+Suit,Navy Suit,100,3,12.0
+Suit,Charcoal Pinstripe,80,5,20.0
+Suit,Burgundy Suit,80,3,12.0
+Suit,Forest Suit,70,4,16.0
+Suit,Sky Suit,70,5,20.0
+Suit,Lavender Suit,50,4,16.0
+Suit,Trench Coat,40,1,4.0
+Suit,Midnight Tuxedo,25,0,0.0
+Tie,Red Tie,100,4,16.0
+Tie,Gold Tie,80,7,28.0
+Tie,Teal Tie,80,4,16.0
+Tie,Magenta Tie,60,1,4.0
+Tie,Candy Stripe Tie,40,3,12.0
+Tie,Royal Dot Tie,30,2,8.0
+Tie,Red Bow Tie,25,2,8.0
+Tie,Ink Bow Tie,15,2,8.0
+Hat,None,100,8,32.0
+Hat,Dock Beanie,60,4,16.0
+Hat,Flat Cap,60,1,4.0
+Hat,Bowler Hat,45,4,16.0
+Hat,Courier Cap,45,4,16.0
+Hat,Top Hat,25,2,8.0
+Hat,Comms Halo,20,1,4.0
+Hat,Gold Crown,6,1,4.0
+Eyewear,None,100,14,56.0
+Eyewear,Round Glasses,45,7,28.0
+Eyewear,Visor Shades,30,2,8.0
+Eyewear,Scanner Monocle,15,1,4.0
+Eyewear,Eye Patch,10,1,4.0
+Accessory,None,100,14,56.0
+Accessory,Neck Chain,45,4,16.0
+Accessory,Stud Earring,40,1,4.0
+Accessory,Hoop Earring,30,4,16.0
+Accessory,Cheek Star,25,2,8.0

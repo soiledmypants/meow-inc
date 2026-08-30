@@ -1,0 +1,45 @@
+{
+  "name": "Meow Inc #3144",
+  "description": "Meow Inc is an original generative pixel-art collection of animals in tailored suits. Every character is drawn programmatically on a 32x32 grid and scaled with hard pixels only.",
+  "image": "ipfs://REPLACE_AFTER_UPLOAD/3144.png",
+  "edition": 3144,
+  "seed": 28,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Deep Space"
+    },
+    {
+      "trait_type": "Animal",
+      "value": "Ash Dog"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Steady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Charcoal Pinstripe"
+    },
+    {
+      "trait_type": "Tie",
+      "value": "Magenta Tie"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Bowler Hat"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Cheek Star"
+    }
+  ]
+}

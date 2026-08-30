@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Meow Inc — Trait Placement Editor</title>
+<style>
+  :root {
+    --bg: #14131f; --panel: #1e1d2e; --panel2: #262538; --line: #35334d;
+    --text: #e8e6f0; --dim: #9a97b0; --accent: #f4c64a; --teal: #40c6bc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.5 ui-monospace, Menlo, Consolas, monospace;
+    display: flex; justify-content: center; padding: 24px;
+  }
+  .app { display: flex; gap: 24px; flex-wrap: wrap; max-width: 980px; }
+  h1 { font-size: 16px; margin: 0 0 4px; color: var(--accent); }
+  .hint { color: var(--dim); font-size: 12px; margin-bottom: 12px; }
+  canvas { image-rendering: pixelated; background: #000; border: 2px solid var(--line); border-radius: 6px; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+  .col { display: flex; flex-direction: column; gap: 14px; }
+  .animals { display: flex; gap: 6px; flex-wrap: wrap; }
+  button {
+    background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+    border-radius: 6px; padding: 5px 10px; cursor: pointer; font: inherit; font-size: 13px;
+  }
+  button:hover { border-color: var(--accent); }
+  button.active { background: var(--accent); color: #1a1810; border-color: var(--accent); font-weight: bold; }
+  .traitrow {
+    display: grid; grid-template-columns: 86px 26px 1fr 26px; gap: 6px;
+    align-items: center; padding: 3px 6px; border-radius: 6px; cursor: pointer;
+  }
+  .traitrow.selected { background: var(--panel2); outline: 1px solid var(--teal); }
+  .traitrow .cat { color: var(--dim); font-size: 12px; }
+  .traitrow .val { text-align: center; font-size: 13px; }
+  .traitrow .off { color: var(--teal); font-size: 11px; }
+  .nudge { display: grid; grid-template-columns: repeat(3, 34px); gap: 4px; justify-content: center; }
+  .nudge button { padding: 6px 0; }
+  .nudge .blank { visibility: hidden; }
+  .place-label { text-align: center; color: var(--dim); font-size: 12px; margin-bottom: 8px; min-height: 34px; }
+  .place-label b { color: var(--text); }
+  textarea {
+    width: 100%; height: 130px; background: #111019; color: var(--teal);
+    border: 1px solid var(--line); border-radius: 6px; padding: 8px;
+    font: 12px/1.4 ui-monospace, Menlo, monospace; resize: vertical;
+  }
+  .rowbtns { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+  .copied { color: var(--accent); font-size: 12px; margin-left: 6px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="col">
+    <div>
+      <h1>Meow Inc — trait placement editor</h1>
+      <div class="hint">Pick an animal, cycle traits, click a trait row and
+      nudge it with the arrows (or arrow keys).<br>Offsets are saved
+      <b>per animal per trait</b>. Copy the settings and paste them into
+      placements.json (or send them to Claude).</div>
+    </div>
+    <canvas id="view" width="384" height="384"></canvas>
+    <div class="panel">
+      <div class="place-label" id="placeLabel"></div>
+      <div class="nudge">
+        <button class="blank"></button>
+        <button data-n="0,-1">▲</button>
+        <button class="blank"></button>
+        <button data-n="-1,0">◀</button>
+        <button id="resetBtn">0,0</button>
+        <button data-n="1,0">▶</button>
+        <button class="blank"></button>
+        <button data-n="0,1">▼</button>
+        <button class="blank"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" style="flex:1; min-width:320px;">
+    <div class="panel">
+      <div class="hint" style="margin-bottom:6px;">Animal</div>
+      <div class="animals" id="animals"></div>
+    </div>
+    <div class="panel" id="traitrows"></div>
+    <div class="panel">
+      <div class="rowbtns">
+        <button id="randomBtn">🎲 Randomize traits</button>
+        <button id="copyBtn">📋 Copy settings JSON</button>
+        <button id="loadBtn">⬆ Load JSON from box</button>
+        <span class="copied" id="copyNote"></span>
+      </div>
+      <div style="margin-top:8px;"><textarea id="jsonBox" spellcheck="false"></textarea></div>
+    </div>
+  </div>
+</div>
+
+<script src="traits-data.js"></script>
+<script>
+const D = window.TRAITS_DATA;
+const N = D.size;
+const SCALE = 384 / N;
+
+const state = {
+  sel: {},
+  placements: JSON.parse(JSON.stringify(D.placements || {})),
+  editCat: "Hat",
+};
+for (const cat of D.categories) {
+  state.sel[cat] = cat === "Background" ? D.backgrounds[0].name
+                                        : Object.keys(D.layers[cat])[0];
+}
+state.sel["Hat"] = "None"; // start bare so the animal is visible
+
+function traitNames(cat) {
+  return cat === "Background" ? D.backgrounds.map(b => b.name)
+                              : Object.keys(D.layers[cat]);
+}
+
+function getOffset(animal, cat, name) {
+  return (state.placements[animal]?.[cat]?.[name]) || [0, 0];
+}
+
+function setOffset(animal, cat, name, dx, dy) {
+  if (!state.placements[animal]) state.placements[animal] = {};
+  if (!state.placements[animal][cat]) state.placements[animal][cat] = {};
+  state.placements[animal][cat][name] = [dx, dy];
+}
+
+function prunedPlacements() {
+  const out = {};
+  for (const [animal, cats] of Object.entries(state.placements)) {
+    for (const [cat, traits] of Object.entries(cats)) {
+      for (const [name, [dx, dy]] of Object.entries(traits)) {
+        if (dx === 0 && dy === 0) continue;
+        ((out[animal] ??= {})[cat] ??= {})[name] = [dx, dy];
+      }
+    }
+  }
+  return out;
+}
+
+// ---------------------------------------------------------------- render
+const view = document.getElementById("view");
+const vctx = view.getContext("2d");
+const off = document.createElement("canvas");
+off.width = off.height = N;
+const octx = off.getContext("2d");
+
+function render() {
+  const img = octx.createImageData(N, N);
+  const mask = new Uint8Array(N * N);
+  const bgt = D.backgrounds.find(b => b.name === state.sel.Background);
+  for (let i = 0; i < N * N; i++) {
+    img.data.set([...bgt.color, 255], i * 4);
+  }
+  for (const [x, y, rgb] of (bgt.pixels || [])) {
+    img.data.set([...rgb, 255], (y * N + x) * 4);   // motif, not masked
+  }
+  const animal = state.sel.Animal;
+  for (const cat of D.characterOrder) {
+    const name = state.sel[cat];
+    const pixels = D.layers[cat][name] || [];
+    const [dx, dy] = getOffset(animal, cat, name);
+    for (const [x, y, rgb] of pixels) {
+      const X = x + dx, Y = y + dy;
+      if (X < 0 || X >= N || Y < 0 || Y >= N) continue;
+      img.data.set([...rgb, 255], (Y * N + X) * 4);
+      mask[Y * N + X] = 1;
+    }
+  }
+  // 1px outline around the whole silhouette (matches the Python generator)
+  for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+    const i = y * N + x;
+    if (mask[i]) continue;
+    const near = (x > 0 && mask[i-1]) || (x < N-1 && mask[i+1]) ||
+                 (y > 0 && mask[i-N]) || (y < N-1 && mask[i+N]);
+    if (near) img.data.set([...D.ink, 255], i * 4);
+  }
+  octx.putImageData(img, 0, 0);
+  vctx.imageSmoothingEnabled = false;
+  vctx.clearRect(0, 0, view.width, view.height);
+  vctx.drawImage(off, 0, 0, view.width, view.height);
+}
+
+// ---------------------------------------------------------------- UI
+function buildAnimals() {
+  const box = document.getElementById("animals");
+  box.innerHTML = "";
+  for (const name of traitNames("Animal")) {
+    const b = document.createElement("button");
+    b.textContent = name;
+    b.className = name === state.sel.Animal ? "active" : "";
+    b.onclick = () => { state.sel.Animal = name; update(); };
+    box.appendChild(b);
+  }
+}
+
+function buildTraitRows() {
+  const box = document.getElementById("traitrows");
+  box.innerHTML = "";
+  for (const cat of D.categories) {
+    if (cat === "Animal") continue;
+    const names = traitNames(cat);
+    const row = document.createElement("div");
+    row.className = "traitrow" + (cat === state.editCat ? " selected" : "");
+    row.onclick = () => { state.editCat = cat; update(); };
+
+    const label = document.createElement("span");
+    label.className = "cat"; label.textContent = cat;
+
+    const prev = document.createElement("button");
+    prev.textContent = "◀";
+    prev.onclick = (e) => { e.stopPropagation(); cycle(cat, -1); };
+    const val = document.createElement("span");
+    val.className = "val";
+    const [dx, dy] = cat === "Background" ? [0, 0]
+      : getOffset(state.sel.Animal, cat, state.sel[cat]);
+    val.innerHTML = state.sel[cat] +
+      (dx || dy ? ` <span class="off">(${dx},${dy})</span>` : "");
+    const next = document.createElement("button");
+    next.textContent = "▶";
+    next.onclick = (e) => { e.stopPropagation(); cycle(cat, 1); };
+
+    row.append(label, prev, val, next);
+    box.appendChild(row);
+  }
+}
+
+function cycle(cat, dir) {
+  const names = traitNames(cat);
+  const i = names.indexOf(state.sel[cat]);
+  state.sel[cat] = names[(i + dir + names.length) % names.length];
+  state.editCat = cat;
+  update();
+}
+
+function updatePlaceLabel() {
+  const el = document.getElementById("placeLabel");
+  if (state.editCat === "Background") {
+    el.innerHTML = "Background has no placement — pick another row to nudge.";
+    return;
+  }
+  const cat = state.editCat, name = state.sel[cat];
+  const [dx, dy] = getOffset(state.sel.Animal, cat, name);
+  el.innerHTML = `Nudging <b>${cat} / ${name}</b> on <b>${state.sel.Animal}</b>` +
+                 `<br>offset (${dx}, ${dy})`;
+}
+
+function nudge(ddx, ddy) {
+  if (state.editCat === "Background") return;
+  const cat = state.editCat, name = state.sel[cat];
+  const [dx, dy] = getOffset(state.sel.Animal, cat, name);
+  setOffset(state.sel.Animal, cat, name, dx + ddx, dy + ddy);
+  update();
+}
+
+document.querySelectorAll(".nudge button[data-n]").forEach(b => {
+  const [dx, dy] = b.dataset.n.split(",").map(Number);
+  b.onclick = () => nudge(dx, dy);
+});
+document.getElementById("resetBtn").onclick = () => {
+  if (state.editCat === "Background") return;
+  setOffset(state.sel.Animal, state.editCat, state.sel[state.editCat], 0, 0);
+  update();
+};
+document.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "TEXTAREA") return;
+  const map = { ArrowUp: [0,-1], ArrowDown: [0,1], ArrowLeft: [-1,0], ArrowRight: [1,0] };
+  if (map[e.key]) { e.preventDefault(); nudge(...map[e.key]); }
+});
+
+document.getElementById("randomBtn").onclick = () => {
+  for (const cat of D.categories) {
+    const names = traitNames(cat);
+    state.sel[cat] = names[Math.floor(Math.random() * names.length)];
+  }
+  update();
+};
+
+const jsonBox = document.getElementById("jsonBox");
+document.getElementById("copyBtn").onclick = async () => {
+  const text = JSON.stringify(prunedPlacements(), null, 2);
+  jsonBox.value = text;
+  const note = document.getElementById("copyNote");
+  try {
+    await navigator.clipboard.writeText(text);
+    note.textContent = "copied!";
+  } catch {
+    note.textContent = "copy from the box below";
+  }
+  setTimeout(() => note.textContent = "", 2500);
+};
+document.getElementById("loadBtn").onclick = () => {
+  try {
+    state.placements = JSON.parse(jsonBox.value || "{}");
+    update();
+  } catch (err) {
+    alert("Could not parse JSON: " + err.message);
+  }
+};
+
+function update() {
+  buildAnimals();
+  buildTraitRows();
+  updatePlaceLabel();
+  render();
+}
+update();
+jsonBox.value = JSON.stringify(prunedPlacements(), null, 2);
+</script>
+</body>
+</html>

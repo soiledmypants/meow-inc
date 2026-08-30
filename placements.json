@@ -1,0 +1,26 @@
+{
+  "Ash Dog": {
+    "Accessory": {
+      "Stud Earring": [-1, 6],
+      "Hoop Earring": [-1, 6]
+    }
+  },
+  "Honey Bear": {
+    "Accessory": {
+      "Stud Earring": [1, 0],
+      "Hoop Earring": [1, 0]
+    }
+  },
+  "Snow Rabbit": {
+    "Accessory": {
+      "Stud Earring": [1, -1],
+      "Hoop Earring": [1, -1]
+    }
+  },
+  "Red Fox": {
+    "Accessory": {
+      "Stud Earring": [-1, 0],
+      "Hoop Earring": [-1, 0]
+    }
+  }
+}
