@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Meow Inc — V3 Layer Editor</title>
+<style>
+  :root {
+    --bg: #14131f; --panel: #1e1d2e; --panel2: #262538; --line: #35334d;
+    --text: #e8e6f0; --dim: #9a97b0; --accent: #f4c64a; --teal: #40c6bc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.5 ui-monospace, Menlo, Consolas, monospace;
+    display: flex; justify-content: center; padding: 24px;
+  }
+  .app { display: flex; gap: 24px; flex-wrap: wrap; max-width: 1080px; }
+  h1 { font-size: 16px; margin: 0 0 4px; color: var(--accent); }
+  .hint { color: var(--dim); font-size: 12px; margin-bottom: 12px; max-width: 520px; }
+  canvas { background: #000; border: 2px solid var(--line); border-radius: 6px; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+  .col { display: flex; flex-direction: column; gap: 14px; }
+  button {
+    background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+    border-radius: 6px; padding: 5px 10px; cursor: pointer; font: inherit; font-size: 13px;
+  }
+  button:hover { border-color: var(--accent); }
+  button.active { background: var(--accent); color: #1a1810; border-color: var(--accent); font-weight: bold; }
+  .catrow {
+    display: grid; grid-template-columns: 88px 26px 1fr 26px 62px; gap: 6px;
+    align-items: center; padding: 3px 6px; border-radius: 6px; cursor: pointer;
+  }
+  .catrow.selected { background: var(--panel2); outline: 1px solid var(--teal); }
+  .catrow .cat { color: var(--dim); font-size: 12px; }
+  .catrow .val { text-align: center; font-size: 13px; overflow: hidden; white-space: nowrap; }
+  .catrow .off { color: var(--teal); font-size: 11px; text-align: right; }
+  .nudge { display: grid; grid-template-columns: repeat(3, 34px); gap: 4px; justify-content: center; }
+  .nudge button { padding: 6px 0; }
+  .nudge .blank { visibility: hidden; }
+  .place-label { text-align: center; color: var(--dim); font-size: 12px; margin-bottom: 8px; min-height: 20px; }
+  .place-label b { color: var(--text); }
+  textarea {
+    width: 100%; height: 150px; background: #111019; color: var(--teal);
+    border: 1px solid var(--line); border-radius: 6px; padding: 8px;
+    font: 12px/1.4 ui-monospace, Menlo, monospace; resize: vertical;
+  }
+  .rowbtns { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+  .copied { color: var(--accent); font-size: 12px; margin-left: 6px; }
+  .bgs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .bgs button { width: 34px; height: 26px; padding: 0; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="col">
+    <div>
+      <h1>Meow Inc — V3 layer editor</h1>
+      <div class="hint">Click a row to select a category, cycle its layer with
+      ◀ ▶, and nudge the selected layer with the arrows (or arrow keys —
+      hold Shift for 10px steps). Offsets are per layer slot. Copy the
+      placements and send them to Claude.</div>
+    </div>
+    <canvas id="view" width="512" height="512"></canvas>
+    <div class="panel">
+      <div class="place-label" id="placeLabel"></div>
+      <div class="nudge">
+        <button class="blank"></button>
+        <button data-n="0,-1">▲</button>
+        <button class="blank"></button>
+        <button data-n="-1,0">◀</button>
+        <button id="resetBtn">0,0</button>
+        <button data-n="1,0">▶</button>
+        <button class="blank"></button>
+        <button data-n="0,1">▼</button>
+        <button class="blank"></button>
+      </div>
+    </div>
+  </div>
+  <div class="col" style="flex:1;min-width:320px">
+    <div class="panel">
+      <div class="hint" style="margin-bottom:6px">Background</div>
+      <div class="bgs" id="bgRow"></div>
+    </div>
+    <div class="panel" id="cats"></div>
+    <div class="panel">
+      <div class="rowbtns">
+        <button id="randBtn">randomize</button>
+        <button id="copyBtn">copy placements</button>
+        <span class="copied" id="copiedNote"></span>
+      </div>
+      <textarea id="jsonBox" spellcheck="false"></textarea>
+    </div>
+  </div>
+</div>
+
+<script>
+const LAYERS = '../v3-layers/';
+let MF, state = {}, offsets = {}, images = {}, selected = null, bg = null;
+
+const canvas = document.getElementById('view');
+const ctx = canvas.getContext('2d');
+
+fetch(LAYERS + 'manifest.json').then(r => r.json()).then(mf => {
+  MF = mf;
+  bg = mf.backgrounds[0];
+  for (const cat of MF.categories) {
+    state[cat.name] = cat.optional ? -1 : 0;
+    offsets[cat.name] = [0, 0];
+  }
+  buildBgRow();
+  buildRows();
+  selectCat(MF.categories[0].name);
+  render();
+});
+
+function layerOf(cat) {
+  const i = state[cat.name];
+  return i < 0 ? null : cat.layers[i];
+}
+
+function img(file) {
+  if (!images[file]) {
+    const im = new Image();
+    im.src = LAYERS + file;
+    im.onload = render;
+    images[file] = im;
+  }
+  return images[file];
+}
+
+function render() {
+  ctx.fillStyle = bg.color;
+  ctx.fillRect(0, 0, 512, 512);
+  for (const cat of MF.categories) {
+    const layer = layerOf(cat);
+    if (!layer) continue;
+    const im = img(layer.file);
+    if (!im.complete) continue;
+    const [dx, dy] = offsets[cat.name];
+    ctx.drawImage(im, dx / 2, dy / 2, 512, 512);
+  }
+  updateRows();
+  updateJson();
+}
+
+function buildBgRow() {
+  const row = document.getElementById('bgRow');
+  for (const b of MF.backgrounds) {
+    const btn = document.createElement('button');
+    btn.style.background = b.color;
+    btn.title = b.name;
+    btn.addEventListener('click', () => { bg = b; render(); });
+    row.appendChild(btn);
+  }
+}
+
+function buildRows() {
+  const box = document.getElementById('cats');
+  for (const cat of MF.categories) {
+    const row = document.createElement('div');
+    row.className = 'catrow';
+    row.dataset.cat = cat.name;
+    row.innerHTML = `<span class="cat">${cat.name}</span>` +
+      `<button data-d="-1">◀</button><span class="val"></span>` +
+      `<button data-d="1">▶</button><span class="off"></span>`;
+    row.addEventListener('click', () => selectCat(cat.name));
+    for (const btn of row.querySelectorAll('button')) {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        cycle(cat, Number(btn.dataset.d));
+        selectCat(cat.name);
+      });
+    }
+    box.appendChild(row);
+  }
+}
+
+function cycle(cat, d) {
+  const min = cat.optional ? -1 : 0;
+  let i = state[cat.name] + d;
+  if (i < min) i = cat.layers.length - 1;
+  if (i >= cat.layers.length) i = min;
+  state[cat.name] = i;
+  render();
+}
+
+function selectCat(name) {
+  selected = name;
+  updateRows();
+  const layer = layerOf(MF.categories.find(c => c.name === name));
+  document.getElementById('placeLabel').innerHTML =
+    layer ? `moving <b>${name} / ${layer.name}</b>` : `<b>${name}</b> — none`;
+}
+
+function updateRows() {
+  for (const row of document.querySelectorAll('.catrow')) {
+    const cat = MF.categories.find(c => c.name === row.dataset.cat);
+    const layer = layerOf(cat);
+    row.classList.toggle('selected', cat.name === selected);
+    row.querySelector('.val').textContent = layer ? layer.name : '—';
+    const [dx, dy] = offsets[cat.name];
+    row.querySelector('.off').textContent = (dx || dy) ? `${dx},${dy}` : '';
+  }
+}
+
+function nudge(dx, dy) {
+  if (!selected) return;
+  offsets[selected][0] += dx;
+  offsets[selected][1] += dy;
+  render();
+}
+
+for (const btn of document.querySelectorAll('.nudge button[data-n]')) {
+  const [dx, dy] = btn.dataset.n.split(',').map(Number);
+  btn.addEventListener('click', () => nudge(dx, dy));
+}
+document.getElementById('resetBtn').addEventListener('click', () => {
+  if (selected) { offsets[selected] = [0, 0]; render(); }
+});
+document.addEventListener('keydown', e => {
+  const step = e.shiftKey ? 10 : 1;
+  const map = { ArrowUp: [0, -1], ArrowDown: [0, 1], ArrowLeft: [-1, 0], ArrowRight: [1, 0] };
+  if (map[e.key]) { e.preventDefault(); nudge(map[e.key][0] * step, map[e.key][1] * step); }
+});
+
+document.getElementById('randBtn').addEventListener('click', () => {
+  for (const cat of MF.categories) {
+    const min = cat.optional ? -1 : 0;
+    state[cat.name] = Math.floor(Math.random() * (cat.layers.length - min)) + min;
+  }
+  render();
+});
+
+function updateJson() {
+  const sel = {};
+  for (const cat of MF.categories) {
+    const layer = layerOf(cat);
+    sel[cat.name] = layer ? layer.name : null;
+  }
+  document.getElementById('jsonBox').value = JSON.stringify(
+    { background: bg.name, selection: sel, offsets: offsets }, null, 2);
+}
+
+document.getElementById('copyBtn').addEventListener('click', () => {
+  navigator.clipboard.writeText(document.getElementById('jsonBox').value);
+  document.getElementById('copiedNote').textContent = 'copied!';
+  setTimeout(() => document.getElementById('copiedNote').textContent = '', 1500);
+});
+</script>
+</body>
+</html>

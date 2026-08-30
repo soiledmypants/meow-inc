@@ -1,0 +1,37 @@
+{
+  "name": "Meow Inc #0003",
+  "description": "Meow Inc is an original collection of hand-drawn doodle cats in HD-pixel corporate attire. One smooth head, hard-pixel everything else, and a job to do.",
+  "image": "ipfs://REPLACE_AFTER_UPLOAD/0003.png",
+  "edition": 3,
+  "seed": 28,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "periwinkle"
+    },
+    {
+      "trait_type": "Head",
+      "value": "lavender"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "dots"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "blep"
+    },
+    {
+      "trait_type": "Blush",
+      "value": "None"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "round-gold"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "None"
+    }
+  ]
+}

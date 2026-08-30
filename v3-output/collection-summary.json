@@ -1,0 +1,56 @@
+{
+  "collection": "Meow Inc",
+  "size": 24,
+  "seed": 28,
+  "canvas": 1024,
+  "base_image_uri": "ipfs://REPLACE_AFTER_UPLOAD/",
+  "possible_combinations": 26880,
+  "generated_at": "2026-08-30T19:27:53+00:00",
+  "trait_counts": {
+    "Background": {
+      "periwinkle": 4,
+      "sky": 7,
+      "rose": 4,
+      "mint": 3,
+      "butter": 4,
+      "plasma violet": 2
+    },
+    "Head": {
+      "sky": 5,
+      "gray": 2,
+      "lavender": 1,
+      "tabby": 5,
+      "white": 7,
+      "cream": 2,
+      "mint": 2
+    },
+    "Eyes": {
+      "squint": 5,
+      "sleepy": 4,
+      "dots": 6,
+      "bead": 6,
+      "wink": 3
+    },
+    "Mouth": {
+      "smile": 13,
+      "blep": 3,
+      "line": 7,
+      "grin": 1
+    },
+    "Blush": {
+      "None": 17,
+      "blush": 7
+    },
+    "Glasses": {
+      "None": 17,
+      "round-gold": 2,
+      "shades": 4,
+      "round-lavender": 1
+    },
+    "Accessory": {
+      "None": 18,
+      "flower": 4,
+      "earring": 2
+    }
+  }
+}

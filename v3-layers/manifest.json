@@ -1,0 +1,163 @@
+{
+  "canvas": 1024,
+  "backgrounds": [
+    {
+      "name": "periwinkle",
+      "color": "#9aa4ea"
+    },
+    {
+      "name": "plasma violet",
+      "color": "#7e60ac"
+    },
+    {
+      "name": "mint",
+      "color": "#a8dcc0"
+    },
+    {
+      "name": "rose",
+      "color": "#e8a0b4"
+    },
+    {
+      "name": "butter",
+      "color": "#f2d488"
+    },
+    {
+      "name": "sky",
+      "color": "#a9c8ee"
+    },
+    {
+      "name": "charcoal",
+      "color": "#3a3846"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Head",
+      "optional": false,
+      "layers": [
+        {
+          "name": "sky",
+          "file": "head-sky.png"
+        },
+        {
+          "name": "white",
+          "file": "head-white.png"
+        },
+        {
+          "name": "pink",
+          "file": "head-pink.png"
+        },
+        {
+          "name": "tabby",
+          "file": "head-tabby.png"
+        },
+        {
+          "name": "gray",
+          "file": "head-gray.png"
+        },
+        {
+          "name": "cream",
+          "file": "head-cream.png"
+        },
+        {
+          "name": "mint",
+          "file": "head-mint.png"
+        },
+        {
+          "name": "lavender",
+          "file": "head-lavender.png"
+        }
+      ]
+    },
+    {
+      "name": "Eyes",
+      "optional": false,
+      "layers": [
+        {
+          "name": "dots",
+          "file": "eyes-dots.png"
+        },
+        {
+          "name": "bead",
+          "file": "eyes-bead.png"
+        },
+        {
+          "name": "squint",
+          "file": "eyes-squint.png"
+        },
+        {
+          "name": "wink",
+          "file": "eyes-wink.png"
+        },
+        {
+          "name": "sleepy",
+          "file": "eyes-sleepy.png"
+        }
+      ]
+    },
+    {
+      "name": "Mouth",
+      "optional": false,
+      "layers": [
+        {
+          "name": "smile",
+          "file": "mouth-smile.png"
+        },
+        {
+          "name": "grin",
+          "file": "mouth-grin.png"
+        },
+        {
+          "name": "blep",
+          "file": "mouth-blep.png"
+        },
+        {
+          "name": "line",
+          "file": "mouth-line.png"
+        }
+      ]
+    },
+    {
+      "name": "Blush",
+      "optional": true,
+      "layers": [
+        {
+          "name": "blush",
+          "file": "blush.png"
+        }
+      ]
+    },
+    {
+      "name": "Glasses",
+      "optional": true,
+      "layers": [
+        {
+          "name": "round-lavender",
+          "file": "glasses-round-lavender.png"
+        },
+        {
+          "name": "round-gold",
+          "file": "glasses-round-gold.png"
+        },
+        {
+          "name": "shades",
+          "file": "glasses-shades.png"
+        }
+      ]
+    },
+    {
+      "name": "Accessory",
+      "optional": true,
+      "layers": [
+        {
+          "name": "flower",
+          "file": "acc-flower.png"
+        },
+        {
+          "name": "earring",
+          "file": "acc-earring.png"
+        }
+      ]
+    }
+  ]
+}
