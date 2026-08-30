@@ -7,7 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "plasma violet"
+      "value": "mint"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "sky"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "lavender"
+    },
+    {
+      "trait_type": "Tie",
+      "value": "teal"
     },
     {
       "trait_type": "Head",
@@ -15,7 +27,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "squint"
+      "value": "dots"
     },
     {
       "trait_type": "Mouth",
@@ -23,15 +35,11 @@
     },
     {
       "trait_type": "Blush",
-      "value": "blush"
+      "value": "None"
     },
     {
       "trait_type": "Glasses",
-      "value": "round-gold"
-    },
-    {
-      "trait_type": "Accessory",
-      "value": "None"
+      "value": "shades"
     }
   ]
 }

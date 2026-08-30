@@ -10,28 +10,36 @@
       "value": "sky"
     },
     {
+      "trait_type": "Shirt",
+      "value": "mint"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "burgundy"
+    },
+    {
+      "trait_type": "Tie",
+      "value": "teal"
+    },
+    {
       "trait_type": "Head",
-      "value": "white"
+      "value": "pink"
     },
     {
       "trait_type": "Eyes",
-      "value": "wink"
+      "value": "bead"
     },
     {
       "trait_type": "Mouth",
-      "value": "blep"
+      "value": "line"
     },
     {
       "trait_type": "Blush",
-      "value": "None"
+      "value": "blush"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
-    },
-    {
-      "trait_type": "Accessory",
-      "value": "None"
+      "value": "round-lavender"
     }
   ]
 }

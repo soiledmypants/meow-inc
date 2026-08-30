@@ -10,16 +10,28 @@
       "value": "rose"
     },
     {
+      "trait_type": "Shirt",
+      "value": "sky"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "burgundy"
+    },
+    {
+      "trait_type": "Tie",
+      "value": "gold"
+    },
+    {
       "trait_type": "Head",
-      "value": "white"
+      "value": "tabby"
     },
     {
       "trait_type": "Eyes",
-      "value": "squint"
+      "value": "dots"
     },
     {
       "trait_type": "Mouth",
-      "value": "line"
+      "value": "blep"
     },
     {
       "trait_type": "Blush",
@@ -28,10 +40,6 @@
     {
       "trait_type": "Glasses",
       "value": "None"
-    },
-    {
-      "trait_type": "Accessory",
-      "value": "flower"
     }
   ]
 }

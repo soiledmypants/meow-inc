@@ -4,52 +4,71 @@
   "seed": 28,
   "canvas": 1024,
   "base_image_uri": "ipfs://REPLACE_AFTER_UPLOAD/",
-  "possible_combinations": 17920,
-  "generated_at": "2026-08-30T19:30:37+00:00",
+  "possible_combinations": 2112000,
+  "generated_at": "2026-08-30T19:47:10+00:00",
   "trait_counts": {
     "Background": {
       "periwinkle": 4,
-      "sky": 7,
-      "rose": 4,
+      "hot pink": 4,
+      "sky": 3,
+      "rose": 3,
+      "volt": 2,
+      "mint": 5,
+      "butter": 2,
+      "plasma violet": 1
+    },
+    "Suit": {
+      "green": 6,
+      "navy": 7,
+      "burgundy": 6,
+      "black": 2,
+      "lavender": 2,
+      "mustard": 1
+    },
+    "Shirt": {
+      "white": 11,
       "mint": 3,
-      "butter": 4,
-      "plasma violet": 2
+      "pink": 1,
+      "sky": 5,
+      "butter": 4
     },
     "Head": {
-      "sky": 5,
-      "gray": 2,
-      "lavender": 1,
-      "tabby": 5,
-      "white": 7,
+      "sky": 3,
+      "white": 5,
+      "tabby": 4,
       "cream": 2,
+      "pink": 5,
+      "gray": 3,
       "mint": 2
     },
     "Eyes": {
-      "squint": 5,
-      "sleepy": 4,
-      "dots": 6,
-      "bead": 6,
-      "wink": 3
+      "bead": 8,
+      "dots": 7,
+      "sleepy": 6,
+      "wink": 2,
+      "squint": 1
     },
     "Mouth": {
-      "smile": 13,
-      "blep": 3,
-      "line": 7,
-      "grin": 1
+      "line": 2,
+      "blep": 4,
+      "smile": 10,
+      "grin": 8
     },
     "Blush": {
-      "None": 17,
-      "blush": 7
+      "None": 20,
+      "blush": 4
+    },
+    "Tie": {
+      "red": 7,
+      "None": 3,
+      "teal": 8,
+      "gold": 6
     },
     "Glasses": {
-      "None": 17,
+      "None": 15,
       "round-gold": 2,
-      "shades": 4,
-      "round-lavender": 1
-    },
-    "Accessory": {
-      "None": 19,
-      "flower": 5
+      "round-lavender": 3,
+      "shades": 4
     }
   }
 }

@@ -7,7 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "rose"
+      "value": "plasma violet"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "white"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "lavender"
+    },
+    {
+      "trait_type": "Tie",
+      "value": "gold"
     },
     {
       "trait_type": "Head",
@@ -15,7 +27,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "sleepy"
+      "value": "bead"
     },
     {
       "trait_type": "Mouth",
@@ -27,11 +39,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
-    },
-    {
-      "trait_type": "Accessory",
-      "value": "None"
+      "value": "shades"
     }
   ]
 }

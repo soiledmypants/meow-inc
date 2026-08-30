@@ -7,19 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "sky"
+      "value": "mint"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "butter"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "green"
+    },
+    {
+      "trait_type": "Tie",
+      "value": "gold"
     },
     {
       "trait_type": "Head",
-      "value": "white"
+      "value": "pink"
     },
     {
       "trait_type": "Eyes",
-      "value": "dots"
+      "value": "sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "smile"
+      "value": "grin"
     },
     {
       "trait_type": "Blush",
@@ -27,10 +39,6 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
-    },
-    {
-      "trait_type": "Accessory",
       "value": "None"
     }
   ]

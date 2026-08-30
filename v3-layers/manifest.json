@@ -28,9 +28,103 @@
     {
       "name": "charcoal",
       "color": "#3a3846"
+    },
+    {
+      "name": "volt",
+      "color": "#ccff00"
+    },
+    {
+      "name": "tangerine",
+      "color": "#ff8c42"
+    },
+    {
+      "name": "hot pink",
+      "color": "#ff5c9e"
+    },
+    {
+      "name": "royal",
+      "color": "#4657d8"
     }
   ],
   "categories": [
+    {
+      "name": "Shirt",
+      "optional": false,
+      "layers": [
+        {
+          "name": "white",
+          "file": "shirt-white.png"
+        },
+        {
+          "name": "sky",
+          "file": "shirt-sky.png"
+        },
+        {
+          "name": "butter",
+          "file": "shirt-butter.png"
+        },
+        {
+          "name": "pink",
+          "file": "shirt-pink.png"
+        },
+        {
+          "name": "mint",
+          "file": "shirt-mint.png"
+        }
+      ]
+    },
+    {
+      "name": "Suit",
+      "optional": false,
+      "layers": [
+        {
+          "name": "green",
+          "file": "suit-green.png"
+        },
+        {
+          "name": "navy",
+          "file": "suit-navy.png"
+        },
+        {
+          "name": "burgundy",
+          "file": "suit-burgundy.png"
+        },
+        {
+          "name": "mustard",
+          "file": "suit-mustard.png"
+        },
+        {
+          "name": "lavender",
+          "file": "suit-lavender.png"
+        },
+        {
+          "name": "black",
+          "file": "suit-black.png"
+        }
+      ]
+    },
+    {
+      "name": "Tie",
+      "optional": true,
+      "layers": [
+        {
+          "name": "gold",
+          "file": "tie-gold.png"
+        },
+        {
+          "name": "red",
+          "file": "tie-red.png"
+        },
+        {
+          "name": "teal",
+          "file": "tie-teal.png"
+        },
+        {
+          "name": "magenta",
+          "file": "tie-magenta.png"
+        }
+      ]
+    },
     {
       "name": "Head",
       "optional": false,
@@ -142,16 +236,6 @@
         {
           "name": "shades",
           "file": "glasses-shades.png"
-        }
-      ]
-    },
-    {
-      "name": "Accessory",
-      "optional": true,
-      "layers": [
-        {
-          "name": "flower",
-          "file": "acc-flower.png"
         }
       ]
     }

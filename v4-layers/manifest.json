@@ -1,0 +1,137 @@
+{
+  "canvas": 1024,
+  "backgrounds": [
+    {
+      "name": "navy",
+      "color": "#182056"
+    },
+    {
+      "name": "charcoal",
+      "color": "#201e28"
+    },
+    {
+      "name": "violet",
+      "color": "#42306e"
+    },
+    {
+      "name": "deep green",
+      "color": "#104632"
+    },
+    {
+      "name": "plum",
+      "color": "#3a2250"
+    },
+    {
+      "name": "crimson",
+      "color": "#6e1a24"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Backdrop",
+      "optional": true,
+      "layers": [
+        {
+          "name": "candles navy",
+          "file": "backdrop-candles-navy.png"
+        },
+        {
+          "name": "candles charcoal",
+          "file": "backdrop-candles-charcoal.png"
+        },
+        {
+          "name": "area violet",
+          "file": "backdrop-area-violet.png"
+        },
+        {
+          "name": "area green",
+          "file": "backdrop-area-green.png"
+        },
+        {
+          "name": "board blue",
+          "file": "backdrop-board-blue.png"
+        },
+        {
+          "name": "skyline midnight",
+          "file": "backdrop-skyline-midnight.png"
+        },
+        {
+          "name": "coins plum",
+          "file": "backdrop-coins-plum.png"
+        }
+      ]
+    },
+    {
+      "name": "Body",
+      "optional": false,
+      "layers": [
+        {
+          "name": "black",
+          "file": "body-black.png"
+        },
+        {
+          "name": "navy",
+          "file": "body-navy.png"
+        },
+        {
+          "name": "burgundy",
+          "file": "body-burgundy.png"
+        },
+        {
+          "name": "forest",
+          "file": "body-forest.png"
+        },
+        {
+          "name": "royal",
+          "file": "body-royal.png"
+        },
+        {
+          "name": "sand",
+          "file": "body-sand.png"
+        }
+      ]
+    },
+    {
+      "name": "Head",
+      "optional": false,
+      "layers": [
+        {
+          "name": "tabby",
+          "file": "head-tabby.png"
+        },
+        {
+          "name": "green",
+          "file": "head-green.png"
+        },
+        {
+          "name": "blue",
+          "file": "head-blue.png"
+        },
+        {
+          "name": "pink",
+          "file": "head-pink.png"
+        },
+        {
+          "name": "mint",
+          "file": "head-mint.png"
+        },
+        {
+          "name": "lilac",
+          "file": "head-lilac.png"
+        },
+        {
+          "name": "gold",
+          "file": "head-gold.png"
+        },
+        {
+          "name": "smoke",
+          "file": "head-smoke.png"
+        },
+        {
+          "name": "midnight",
+          "file": "head-midnight.png"
+        }
+      ]
+    }
+  ]
+}

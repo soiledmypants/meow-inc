@@ -114,6 +114,104 @@ COATS = [
 ]
 
 
+# ------------------------------------------------------------ suit
+
+SUIT_TOP = 47                # collar top row (cells), set after normalizing
+
+
+def load_suit():
+    """base-suit.png: key out the baked-in checkerboard background by
+    flood-fill from the borders, then normalize to the canvas bottom."""
+    im = Image.open("art-refs/base-suit.png").convert("RGBA")
+    px = im.load()
+    w, h = im.size
+
+    def is_bg(p):
+        r, g, b, a = p
+        return a > 200 and r > 215 and g > 215 and b > 215
+
+    stack = ([(x, 0) for x in range(w)] + [(x, h - 1) for x in range(w)]
+             + [(0, y) for y in range(h)] + [(w - 1, y) for y in range(h)])
+    seen = set()
+    while stack:
+        x, y = stack.pop()
+        if (x, y) in seen or not (0 <= x < w and 0 <= y < h):
+            continue
+        seen.add((x, y))
+        if not is_bg(px[x, y]):
+            continue
+        px[x, y] = (0, 0, 0, 0)
+        stack.extend(((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)))
+
+    bbox = im.getbbox()
+    im = im.crop(bbox)
+    scale = 720 / im.width
+    im = im.resize((720, round(im.height * scale)), Image.LANCZOS)
+    canvas = Image.new("RGBA", (CANVAS, CANVAS), (0, 0, 0, 0))
+    canvas.paste(im, ((CANVAS - 720) // 2, CANVAS - im.height), im)
+    return canvas, (CANVAS - im.height) // CELL
+
+
+def suit_variant(base, color):
+    """Recolor the key-green jacket; the white shirt and outline stay."""
+    out = base.copy()
+    px = out.load()
+    r2, g2, b2 = color
+    for y in range(out.height):
+        for x in range(out.width):
+            r, g, b, a = px[x, y]
+            if a and g > r + 20 and g > b + 20:
+                v = g / 200
+                px[x, y] = (min(255, round(r2 * v)), min(255, round(g2 * v)),
+                            min(255, round(b2 * v)), a)
+    return out
+
+
+SUIT_COLORS = [
+    ("green", None),               # the original key color, kept as-is
+    ("navy", (66, 90, 142)),
+    ("burgundy", (150, 60, 76)),
+    ("mustard", (234, 178, 76)),
+    ("lavender", (172, 148, 216)),
+    ("black", (70, 68, 80)),
+]
+
+
+def shirt_variant(suit_base, color):
+    """The keying removed the shirt (it connects to the background through
+    the neck opening), so rebuild it: fill every transparent gap that is
+    horizontally enclosed by suit pixels. Rendered UNDER the suit, this
+    fills the collar V and neck opening exactly."""
+    out = Image.new("RGBA", suit_base.size, (0, 0, 0, 0))
+    src = suit_base.load()
+    dst = out.load()
+    w, h = suit_base.size
+    for y in range(h):
+        xs = [x for x in range(w) if src[x, y][3] > 40]
+        if len(xs) < 2:
+            continue
+        left, right = xs[0], xs[-1]
+        run = 0
+        for x in range(left, right + 1):
+            if src[x, y][3] <= 40:
+                run += 1
+            else:
+                if 0 < run <= 460:
+                    for fx in range(x - run, x):
+                        dst[fx, y] = color + (255,)
+                run = 0
+    return out
+
+
+SHIRT_COLORS = [
+    ("white", (252, 252, 255)),
+    ("sky", (170, 206, 240)),
+    ("butter", (248, 222, 140)),
+    ("pink", (248, 184, 200)),
+    ("mint", (180, 226, 196)),
+]
+
+
 # ------------------------------------------------------- pixel layers
 
 class Pix:
@@ -152,6 +250,27 @@ class Pix:
             im.putpixel((x, y), c + (255,))
         im.resize((CANVAS, CANVAS), Image.NEAREST).save(OUT / name)
         return name
+
+
+def tie(name, color, dark):
+    c = Pix()
+    k = SUIT_TOP + 6                 # knot sits in the collar dip
+    c.rect(MX - 2, k, MX + 2, k + 2, color)
+    c.px(MX - 2, k, dark); c.px(MX + 2, k + 2, dark)
+    for i, y in enumerate(range(k + 3, GRID)):
+        half = 2 if 1 <= i <= 6 else 1
+        c.row(y, MX - half, MX + half, color)
+        c.px(MX + half, y, dark)
+    c.outline()
+    return c.save(f"tie-{name}.png")
+
+
+TIES = [
+    ("gold", (246, 200, 78), (206, 158, 52)),
+    ("red", (224, 86, 78), (182, 62, 56)),
+    ("teal", (68, 200, 190), (48, 158, 150)),
+    ("magenta", (216, 92, 168), (174, 66, 132)),
+]
 
 
 def eyes_dots():
@@ -278,31 +397,24 @@ def glasses_shades():
     return c.save("glasses-shades.png")
 
 
-def acc_flower():
-    c = Pix()
-    fx, fy = 43, 15
-    petal = (250, 200, 216)
-    for dx, dy in ((0, -3), (3, -1), (2, 3), (-2, 3), (-3, -1)):
-        c.rect(fx + dx - 1, fy + dy - 1, fx + dx + 1, fy + dy + 1, petal)
-    c.rect(fx - 1, fy - 1, fx + 1, fy + 1, (246, 200, 78))
-    c.outline()
-    return c.save("acc-flower.png")
-
-
 BACKGROUNDS = [
     ("periwinkle", "#9aa4ea"), ("plasma violet", "#7e60ac"),
     ("mint", "#a8dcc0"), ("rose", "#e8a0b4"), ("butter", "#f2d488"),
     ("sky", "#a9c8ee"), ("charcoal", "#3a3846"),
+    ("volt", "#ccff00"), ("tangerine", "#ff8c42"),
+    ("hot pink", "#ff5c9e"), ("royal", "#4657d8"),
 ]
 
 
 def main():
-    global EL, ER, EY, MX
+    global EL, ER, EY, MX, SUIT_TOP
     OUT.mkdir(exist_ok=True)
     base, (lx, rx, ey) = load_base()
     EL, ER, EY = round(lx / CELL), round(rx / CELL), round(ey / CELL)
     MX = round((EL + ER) / 2)
-    print(f"face anchors (cells): L={EL} R={ER} Y={EY} center={MX}")
+    suit_base, SUIT_TOP = load_suit()
+    print(f"anchors (cells): L={EL} R={ER} Y={EY} center={MX} "
+          f"suit_top={SUIT_TOP}")
 
     heads = []
     for name, color in COATS:
@@ -311,7 +423,24 @@ def main():
         heads.append({"name": name, "file": f"head-{name}.png"})
         print(f"head-{name}.png")
 
+    suits = []
+    for name, color in SUIT_COLORS:
+        img = suit_base if color is None else suit_variant(suit_base, color)
+        img.save(OUT / f"suit-{name}.png")
+        suits.append({"name": name, "file": f"suit-{name}.png"})
+        print(f"suit-{name}.png")
+
+    shirts = []
+    for name, color in SHIRT_COLORS:
+        shirt_variant(suit_base, color).save(OUT / f"shirt-{name}.png")
+        shirts.append({"name": name, "file": f"shirt-{name}.png"})
+        print(f"shirt-{name}.png")
+
     cats = [
+        {"name": "Shirt", "optional": False, "layers": shirts},
+        {"name": "Suit", "optional": False, "layers": suits},
+        {"name": "Tie", "optional": True,
+         "layers": [{"name": n, "file": tie(n, c_, d)} for n, c_, d in TIES]},
         {"name": "Head", "optional": False, "layers": heads},
         {"name": "Eyes", "optional": False, "layers": [
             {"name": "dots", "file": eyes_dots()},
@@ -330,8 +459,6 @@ def main():
             {"name": "round-lavender", "file": glasses_round("round-lavender", (168, 146, 224))},
             {"name": "round-gold", "file": glasses_round("round-gold", (226, 178, 76))},
             {"name": "shades", "file": glasses_shades()}]},
-        {"name": "Accessory", "optional": True, "layers": [
-            {"name": "flower", "file": acc_flower()}]},
     ]
 
     manifest = {

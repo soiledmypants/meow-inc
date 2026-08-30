@@ -10,16 +10,28 @@
       "value": "periwinkle"
     },
     {
+      "trait_type": "Shirt",
+      "value": "white"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "green"
+    },
+    {
+      "trait_type": "Tie",
+      "value": "red"
+    },
+    {
       "trait_type": "Head",
       "value": "sky"
     },
     {
       "trait_type": "Eyes",
-      "value": "squint"
+      "value": "bead"
     },
     {
       "trait_type": "Mouth",
-      "value": "smile"
+      "value": "line"
     },
     {
       "trait_type": "Blush",
@@ -27,10 +39,6 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
-    },
-    {
-      "trait_type": "Accessory",
       "value": "None"
     }
   ]

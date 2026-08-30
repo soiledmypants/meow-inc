@@ -33,18 +33,22 @@ MAX_ATTEMPTS = 5000
 
 # rarity weights; category "None" = odds an optional slot stays empty
 WEIGHTS = {
-    "Background": {"periwinkle": 90, "sky": 85, "mint": 70,
-                   "plasma violet": 65, "rose": 60, "butter": 55,
-                   "charcoal": 30},
+    "Background": {"periwinkle": 80, "sky": 75, "mint": 65,
+                   "plasma violet": 60, "rose": 55, "butter": 50,
+                   "tangerine": 40, "royal": 40, "hot pink": 35,
+                   "charcoal": 30, "volt": 25},
+    "Suit": {"navy": 100, "burgundy": 80, "green": 60, "mustard": 55,
+             "lavender": 45, "black": 35},
+    "Shirt": {"white": 100, "sky": 55, "butter": 45, "pink": 40, "mint": 35},
     "Head": {"sky": 100, "white": 90, "gray": 80, "cream": 80,
              "tabby": 70, "pink": 55, "mint": 45, "lavender": 35},
     "Eyes": {"dots": 100, "bead": 70, "squint": 55, "sleepy": 40,
              "wink": 25},
     "Mouth": {"smile": 100, "line": 70, "grin": 55, "blep": 35},
     "Blush": {"None": 70, "blush": 30},
+    "Tie": {"None": 30, "red": 70, "gold": 60, "teal": 50, "magenta": 30},
     "Glasses": {"None": 65, "round-lavender": 25, "shades": 18,
                 "round-gold": 15},
-    "Accessory": {"None": 70, "flower": 30},
 }
 
 
