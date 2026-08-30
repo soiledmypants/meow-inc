@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
@@ -27,15 +27,15 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",

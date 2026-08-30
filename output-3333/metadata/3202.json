@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Server Room"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
@@ -23,19 +23,19 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",

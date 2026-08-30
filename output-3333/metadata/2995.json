@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
@@ -15,23 +15,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

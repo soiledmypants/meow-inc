@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
@@ -23,11 +23,11 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,7 +35,7 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Scanner Monocle"
     },
     {
       "trait_type": "Accessory",

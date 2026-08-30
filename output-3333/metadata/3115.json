@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Rose Nebula"
     },
     {
       "trait_type": "Animal",
@@ -15,15 +15,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
@@ -31,15 +31,15 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Comms Halo"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Eye Patch"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

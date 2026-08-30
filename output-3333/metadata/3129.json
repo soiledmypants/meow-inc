@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Elevator"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
@@ -19,19 +19,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Neck Chain"
+      "value": "None"
     }
   ]
 }

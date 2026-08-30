@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Aurora Night"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
@@ -27,19 +27,19 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Royal Dot Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "Scanner Monocle"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Neck Chain"
     }
   ]
 }

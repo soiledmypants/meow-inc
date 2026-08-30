@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Night Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
@@ -19,27 +19,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Neck Chain"
     }
   ]
 }

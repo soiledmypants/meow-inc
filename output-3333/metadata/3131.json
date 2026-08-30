@@ -7,23 +7,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Boardroom"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
@@ -31,15 +31,15 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Hoop Earring"
     }
   ]
 }

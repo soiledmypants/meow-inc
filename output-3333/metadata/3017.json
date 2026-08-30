@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Boardroom"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Red Fox"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Stud Earring"
     }
   ]
 }

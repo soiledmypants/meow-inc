@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Corner Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
@@ -23,7 +23,7 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
@@ -31,11 +31,11 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Comms Halo"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Scanner Monocle"
     },
     {
       "trait_type": "Accessory",

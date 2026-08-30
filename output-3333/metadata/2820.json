@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
@@ -19,19 +19,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Lavender Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "None"
     }
   ]
 }

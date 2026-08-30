@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
@@ -19,27 +19,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
-      "value": "Ink Bow Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Neck Chain"
     }
   ]
 }

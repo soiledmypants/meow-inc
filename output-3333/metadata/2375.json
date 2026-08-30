@@ -7,27 +7,27 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Cubicle Farm"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starry"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Ink Bow Tie"
     },
     {
       "trait_type": "Hat",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Hoop Earring"
     }
   ]
 }

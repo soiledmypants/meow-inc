@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Lavender Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Neck Chain"
+      "value": "Stud Earring"
     }
   ]
 }

@@ -7,23 +7,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Aurora Night"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
@@ -31,7 +31,7 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Hoop Earring"
     }
   ]
 }

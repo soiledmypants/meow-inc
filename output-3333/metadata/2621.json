@@ -7,23 +7,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
@@ -31,11 +31,11 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",

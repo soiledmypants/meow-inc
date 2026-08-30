@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Night Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Starry"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Burgundy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Eye Patch"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Stud Earring"
     }
   ]
 }

@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Cubicle Farm"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
@@ -23,7 +23,7 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
@@ -35,7 +35,7 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Scanner Monocle"
     },
     {
       "trait_type": "Accessory",

@@ -7,23 +7,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
@@ -31,15 +31,15 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Neck Chain"
     }
   ]
 }

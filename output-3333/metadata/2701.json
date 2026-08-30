@@ -11,11 +11,11 @@
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
@@ -23,11 +23,11 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Midnight Tuxedo"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,11 +35,11 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "None"
     }
   ]
 }

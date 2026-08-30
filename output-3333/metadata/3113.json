@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunrise Orbit"
+      "value": "Docking Bay"
     },
     {
       "trait_type": "Animal",
@@ -15,23 +15,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Royal Dot Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",

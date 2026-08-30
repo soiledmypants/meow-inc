@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Sunrise Orbit"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
@@ -27,19 +27,19 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
-    },
-    {
-      "trait_type": "Eyewear",
       "value": "None"
     },
     {
+      "trait_type": "Eyewear",
+      "value": "Scanner Monocle"
+    },
+    {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Hoop Earring"
     }
   ]
 }

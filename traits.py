@@ -78,6 +78,101 @@ def bg_sunrise(c):
     c.row(16, 0, 31, BGFX["sunrise_band"])
     c.row(17, 0, 31, BGFX["sunrise_band"])
 
+def bg_cubicle(c):
+    c.row(0, 0, 31, BGFX["cubicle_light"])       # ceiling + strip light
+    c.row(1, 0, 31, BGFX["cubicle_light"])
+    c.row(1, 11, 20, WHITE)
+    c.px(3, 4, RED)                              # pinned memo
+    c.px(3, 5, WHITE); c.px(4, 5, WHITE)
+    c.px(3, 6, WHITE); c.px(4, 6, WHITE)
+    c.rect(26, 4, 28, 6, WHITE)                  # wall clock
+    c.px(27, 5, BGFX["cubicle_dark"])
+    c.row(30, 0, 31, BGFX["cubicle_dark"])       # partition rail
+    c.row(31, 0, 31, BGFX["cubicle_dark"])
+
+def bg_night_office(c):
+    c.row(0, 0, 31, BGFX["win_frame"])           # window wall, space outside
+    for y in range(1, 7):
+        c.row(y, 1, 30, BGFX["win_space"])
+    c.row(7, 0, 31, BGFX["win_frame"])
+    c.col(0, 0, 7, BGFX["win_frame"]); c.col(31, 0, 7, BGFX["win_frame"])
+    for x, y in ((3, 2), (8, 5), (13, 2), (16, 4), (27, 2), (29, 4)):
+        c.px(x, y, BGFX["star"])
+    for x, y in ((19, 4), (20, 3), (21, 4), (22, 3), (23, 2), (24, 3)):
+        c.px(x, y, BGFX["haze"] if (x + y) % 2 else BGFX["haze_deep"])
+    c.px(2, 26, BGFX["plant_dark"]); c.px(3, 25, BGFX["plant"])   # plant
+    c.px(4, 26, BGFX["plant"]); c.px(3, 27, BGFX["plant"])
+    c.rect(2, 28, 4, 30, BGFX["pot"])
+    c.rect(26, 27, 30, 31, BGFX["win_frame"])    # cabinet + lamp
+    c.px(28, 29, GOLD)
+    c.col(28, 24, 26, BGFX["win_frame"])
+    c.px(27, 23, BGFX["win_frame"]); c.px(26, 24, GOLD)
+    c.row(31, 0, 25, BGFX["win_frame"])
+
+def bg_boardroom(c):
+    c.row(0, 0, 31, BGFX["trim_wood"])           # wood rail + up-only chart
+    c.row(1, 0, 31, BGFX["trim_wood"])
+    c.row(2, 0, 31, BGFX["board_dark"])
+    c.rect(2, 4, 9, 9, BGFX["board_dark"])
+    c.rect(3, 5, 8, 8, WHITE)
+    for x, y in ((3, 8), (4, 8), (5, 7), (6, 7), (7, 6), (8, 5)):
+        c.px(x, y, GOLD)
+    c.row(31, 0, 31, BGFX["board_dark"])
+
+def bg_elevator(c):
+    c.row(0, 0, 31, BGFX["steel_light"])         # cab light + paneling
+    c.row(1, 11, 20, WHITE)
+    c.col(4, 2, 29, BGFX["steel_seam"])
+    c.col(27, 2, 29, BGFX["steel_seam"])
+    c.rect(28, 10, 30, 20, BGFX["panel_dark"])   # button panel
+    c.px(29, 11, TEAL)
+    for y in (14, 16, 18):
+        c.px(29, y, GOLD)
+    c.row(22, 0, 3, BGFX["steel_dark"])          # handrail stubs
+    c.row(22, 28, 31, BGFX["steel_dark"])
+    c.row(30, 0, 31, BGFX["steel_dark"])
+    c.row(31, 0, 31, BGFX["steel_dark"])
+
+def bg_trading_floor(c):
+    c.rect(0, 1, 31, 4, BGFX["board"])           # ticker wall, green day
+    for x in range(1, 30, 3):
+        c.px(x, 2, BGFX["tick_green"] if x % 2 else RED)
+        c.px(x + 1, 3, WHITE if x % 9 == 0 else BGFX["tick_green"])
+    c.rect(1, 25, 5, 28, BGFX["board"])          # desk screens in the corners
+    c.px(2, 26, TEAL); c.px(4, 27, BGFX["tick_green"])
+    c.rect(26, 25, 30, 28, BGFX["board"])
+    c.px(27, 26, BGFX["tick_green"]); c.px(29, 27, TEAL)
+    c.row(29, 0, 31, BGFX["desk_line"])          # long shared desk
+    c.row(30, 0, 31, BGFX["desk_line"])
+    c.row(31, 0, 31, BGFX["desk_line"])
+
+def bg_server_room(c):
+    for x0 in (1, 27):                           # rack fronts hug the edges
+        c.rect(x0, 1, x0 + 3, 29, BGFX["rack"])
+        c.col(x0, 1, 29, BGFX["rack_dark"])
+        c.col(x0 + 3, 1, 29, BGFX["rack_dark"])
+        c.row(1, x0, x0 + 3, BGFX["rack_dark"])
+        c.row(29, x0, x0 + 3, BGFX["rack_dark"])
+    lights = (TEAL, GOLD, TEAL, RED, TEAL, GOLD, WHITE, TEAL, GOLD)
+    for i, color in enumerate(lights):
+        c.px(2, 3 + i * 3, color)
+        c.px(29, 4 + i * 3, color)
+    c.row(31, 0, 31, BGFX["rack_dark"])
+
+def bg_corner_office(c):
+    c.row(0, 0, 31, BGFX["sunset_high"])         # dusk sky over the skyline
+    c.row(1, 0, 31, BGFX["sunset_high"])
+    c.rect(25, 2, 27, 4, BGFX["sun"])
+    c.px(26, 3, GOLD)
+    tops = (26, 24, 27, 23, 25, 28, 24, 26)      # rooftops, lit windows
+    for g, top in enumerate(tops):
+        x0 = g * 4
+        c.rect(x0, top, x0 + 3, 31, BGFX["city"])
+        if g % 2 == 0:
+            c.px(x0 + 1, top + 2, GOLD)
+        else:
+            c.px(x0 + 2, top + 3, BGFX["sun"])
+
 BACKGROUNDS = [
     Trait("Deep Space", 100, bg_stars, color=BG["deep_space"]),
     Trait("Rose Nebula", 90, bg_haze, color=BG["rose_nebula"]),
@@ -87,6 +182,14 @@ BACKGROUNDS = [
     Trait("Plasma Violet", 60, color=BG["plasma_violet"]),
     Trait("Aurora Night", 60, bg_aurora, color=BG["aurora_night"]),
     Trait("Sunrise Orbit", 40, bg_sunrise, color=BG["sunrise_bottom"]),
+    # the office wing
+    Trait("Cubicle Farm", 75, bg_cubicle, color=BG["cubicle"]),
+    Trait("Night Office", 65, bg_night_office, color=BG["night_office"]),
+    Trait("Boardroom", 55, bg_boardroom, color=BG["boardroom"]),
+    Trait("Elevator", 55, bg_elevator, color=BG["elevator"]),
+    Trait("Trading Floor", 45, bg_trading_floor, color=BG["trading_floor"]),
+    Trait("Server Room", 40, bg_server_room, color=BG["server_room"]),
+    Trait("Corner Office", 35, bg_corner_office, color=BG["corner_office"]),
 ]
 
 # =====================================================================

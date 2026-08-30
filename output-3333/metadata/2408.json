@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Boardroom"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Red Fox"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Royal Dot Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Gold Crown"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "None"
     }
   ]
 }

@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Boardroom"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
@@ -23,23 +23,23 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Neck Chain"
     }
   ]
 }

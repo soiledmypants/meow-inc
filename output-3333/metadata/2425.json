@@ -15,15 +15,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Neck Chain"
+      "value": "Hoop Earring"
     }
   ]
 }

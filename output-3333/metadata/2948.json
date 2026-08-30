@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Neck Chain"
     }
   ]
 }

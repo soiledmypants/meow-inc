@@ -11,19 +11,19 @@
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Red Fox"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
@@ -31,11 +31,11 @@
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",

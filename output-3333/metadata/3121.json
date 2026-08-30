@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Plasma Violet"
+      "value": "Trading Floor"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Starry"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

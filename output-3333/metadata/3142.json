@@ -7,27 +7,27 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Trading Floor"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Cheek Star"
     }
   ]
 }

@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Aurora Night"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Comms Halo"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Scanner Monocle"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

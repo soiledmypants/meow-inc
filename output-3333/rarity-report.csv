@@ -1,17 +1,24 @@
 category,trait,weight,count,percent
-Background,Deep Space,100,524,15.7
-Background,Rose Nebula,90,505,15.2
-Background,Hyperlane Teal,90,492,14.8
-Background,Signal Mint,90,446,13.4
-Background,Docking Bay,80,445,13.4
-Background,Plasma Violet,60,323,9.7
-Background,Aurora Night,60,354,10.6
-Background,Sunrise Orbit,40,244,7.3
+Background,Deep Space,100,352,10.6
+Background,Rose Nebula,90,280,8.4
+Background,Hyperlane Teal,90,313,9.4
+Background,Signal Mint,90,297,8.9
+Background,Docking Bay,80,279,8.4
+Background,Plasma Violet,60,193,5.8
+Background,Aurora Night,60,189,5.7
+Background,Sunrise Orbit,40,119,3.6
+Background,Cubicle Farm,75,252,7.6
+Background,Night Office,65,229,6.9
+Background,Boardroom,55,182,5.5
+Background,Elevator,55,185,5.6
+Background,Trading Floor,45,182,5.5
+Background,Server Room,40,151,4.5
+Background,Corner Office,35,130,3.9
 Animal,Tabby Cat,100,702,21.1
 Animal,Ash Dog,100,706,21.2
-Animal,Honey Bear,100,718,21.5
+Animal,Honey Bear,100,717,21.5
 Animal,Snow Rabbit,100,697,20.9
-Animal,Red Fox,70,510,15.3
+Animal,Red Fox,70,511,15.3
 Eyes,Steady,100,952,28.6
 Eyes,Sideeye,100,842,25.3
 Eyes,Sleepy,70,569,17.1
@@ -24,18 +31,18 @@ Mouth,Grin,60,561,16.8
 Mouth,Blep,50,459,13.8
 Mouth,Frown,50,404,12.1
 Mouth,Toothpick,20,170,5.1
-Suit,Navy Suit,100,675,20.3
+Suit,Navy Suit,100,676,20.3
 Suit,Charcoal Pinstripe,80,492,14.8
 Suit,Burgundy Suit,80,514,15.4
 Suit,Forest Suit,70,443,13.3
 Suit,Sky Suit,70,467,14.0
 Suit,Lavender Suit,50,325,9.8
-Suit,Trench Coat,40,245,7.4
+Suit,Trench Coat,40,244,7.3
 Suit,Midnight Tuxedo,25,172,5.2
 Tie,Red Tie,100,764,22.9
 Tie,Gold Tie,80,627,18.8
-Tie,Teal Tie,80,607,18.2
-Tie,Magenta Tie,60,465,14.0
+Tie,Teal Tie,80,606,18.2
+Tie,Magenta Tie,60,466,14.0
 Tie,Candy Stripe Tie,40,324,9.7
 Tie,Royal Dot Tie,30,240,7.2
 Tie,Red Bow Tie,25,177,5.3
@@ -43,15 +50,15 @@ Tie,Ink Bow Tie,15,129,3.9
 Hat,None,100,960,28.8
 Hat,Dock Beanie,60,540,16.2
 Hat,Flat Cap,60,561,16.8
-Hat,Bowler Hat,45,387,11.6
-Hat,Courier Cap,45,432,13.0
+Hat,Bowler Hat,45,386,11.6
+Hat,Courier Cap,45,433,13.0
 Hat,Top Hat,25,225,6.8
 Hat,Comms Halo,20,182,5.5
 Hat,Gold Crown,6,46,1.4
-Eyewear,None,100,1618,48.5
+Eyewear,None,100,1619,48.6
 Eyewear,Round Glasses,45,789,23.7
 Eyewear,Visor Shades,30,505,15.2
-Eyewear,Scanner Monocle,15,246,7.4
+Eyewear,Scanner Monocle,15,245,7.4
 Eyewear,Eye Patch,10,175,5.3
 Accessory,None,100,1396,41.9
 Accessory,Neck Chain,45,611,18.3

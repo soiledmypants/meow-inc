@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunrise Orbit"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
@@ -27,11 +27,11 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Cheek Star"
     }
   ]
 }

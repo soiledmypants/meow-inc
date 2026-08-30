@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Corner Office"
     },
     {
       "trait_type": "Animal",
@@ -15,11 +15,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
@@ -27,11 +27,11 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",

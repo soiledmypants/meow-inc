@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Night Office"
     },
     {
       "trait_type": "Animal",
@@ -19,7 +19,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
@@ -27,11 +27,11 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Red Bow Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Neck Chain"
     }
   ]
 }

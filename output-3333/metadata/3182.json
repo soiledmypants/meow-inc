@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Sunrise Orbit"
     },
     {
       "trait_type": "Animal",
@@ -19,19 +19,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Bow Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Cheek Star"
     }
   ]
 }

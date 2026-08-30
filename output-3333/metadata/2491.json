@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
@@ -15,23 +15,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Charcoal Pinstripe"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",

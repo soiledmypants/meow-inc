@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
@@ -23,19 +23,19 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Scanner Monocle"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",

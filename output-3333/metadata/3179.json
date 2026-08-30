@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Aurora Night"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
@@ -23,19 +23,19 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",

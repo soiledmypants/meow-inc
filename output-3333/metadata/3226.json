@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunrise Orbit"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
@@ -19,27 +19,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Ink Bow Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Cheek Star"
     }
   ]
 }

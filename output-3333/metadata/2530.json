@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
@@ -15,19 +15,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Midnight Tuxedo"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Ink Bow Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,11 +35,11 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "Neck Chain"
+      "value": "None"
     }
   ]
 }

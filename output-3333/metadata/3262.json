@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

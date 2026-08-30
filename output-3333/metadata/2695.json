@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
@@ -15,11 +15,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
@@ -27,11 +27,11 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Royal Dot Tie"
+      "value": "Ink Bow Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",

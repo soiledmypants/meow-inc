@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Corner Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Starry"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
-    },
-    {
-      "trait_type": "Eyewear",
       "value": "None"
     },
     {
+      "trait_type": "Eyewear",
+      "value": "Round Glasses"
+    },
+    {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Neck Chain"
     }
   ]
 }

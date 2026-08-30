@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Cubicle Farm"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
@@ -23,11 +23,11 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Burgundy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "Stud Earring"
     }
   ]
 }

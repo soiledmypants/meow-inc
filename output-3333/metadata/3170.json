@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Sunrise Orbit"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
@@ -19,27 +19,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Lavender Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Top Hat"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Cheek Star"
     }
   ]
 }

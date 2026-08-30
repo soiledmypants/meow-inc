@@ -7,27 +7,27 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Boardroom"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Bow Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,11 +35,11 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

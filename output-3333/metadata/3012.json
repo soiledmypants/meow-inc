@@ -11,35 +11,35 @@
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Neck Chain"
     }
   ]
 }

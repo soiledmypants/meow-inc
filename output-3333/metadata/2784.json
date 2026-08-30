@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
@@ -23,15 +23,15 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Comms Halo"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Neck Chain"
+      "value": "Cheek Star"
     }
   ]
 }

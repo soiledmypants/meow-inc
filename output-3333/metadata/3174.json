@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Charcoal Pinstripe"
     },
     {
       "trait_type": "Tie",
-      "value": "Royal Dot Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Comms Halo"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Hoop Earring"
     }
   ]
 }

@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
@@ -23,19 +23,19 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Lavender Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Royal Dot Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Scanner Monocle"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",

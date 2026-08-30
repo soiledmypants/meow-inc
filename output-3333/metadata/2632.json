@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Sunrise Orbit"
     },
     {
       "trait_type": "Animal",
@@ -15,23 +15,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Sunrise Orbit"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Lavender Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Stud Earring"
     }
   ]
 }

@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
@@ -15,19 +15,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,7 +35,7 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",

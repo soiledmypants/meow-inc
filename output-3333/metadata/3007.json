@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Docking Bay"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
@@ -19,27 +19,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "Cheek Star"
     }
   ]
 }

@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Plasma Violet"
+      "value": "Sunrise Orbit"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Charcoal Pinstripe"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Scanner Monocle"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "None"
     }
   ]
 }

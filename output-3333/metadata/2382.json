@@ -7,27 +7,27 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Stud Earring"
     }
   ]
 }

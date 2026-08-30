@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Docking Bay"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
-      "value": "Midnight Tuxedo"
+      "value": "Burgundy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Royal Dot Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Top Hat"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Neck Chain"
+      "value": "Stud Earring"
     }
   ]
 }

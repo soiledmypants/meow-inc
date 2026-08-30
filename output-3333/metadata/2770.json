@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
@@ -15,11 +15,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
@@ -27,11 +27,11 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",

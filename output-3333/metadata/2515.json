@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunrise Orbit"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "None"
     }
   ]
 }

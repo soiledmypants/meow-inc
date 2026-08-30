@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Night Office"
     },
     {
       "trait_type": "Animal",
@@ -15,11 +15,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
@@ -27,7 +27,7 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Royal Dot Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",

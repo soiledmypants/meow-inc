@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Aurora Night"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Neck Chain"
     }
   ]
 }

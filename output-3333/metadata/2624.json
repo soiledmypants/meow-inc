@@ -7,23 +7,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Corner Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
@@ -31,11 +31,11 @@
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Eye Patch"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",

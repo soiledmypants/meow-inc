@@ -20,6 +20,12 @@ so pixels stay hard.
 - `validate.py` — post-run checks (dims, hard-pixel grid round-trip,
   palette size, metadata schema, uniqueness)
 - `export_site.py` — dumps trait pixel layers to `site/traits-data.js`
+- `export_gallery.py` — bundles an output run's metadata into
+  `<out>/gallery-data.json` for the gallery viewer
+- `gallery.html` — collection browser: full grid with lazy loading,
+  per-category trait filters, detail modal with rarity percentages
+  (serve the repo root, e.g. `python -m http.server 5327`, then open
+  `/gallery.html`)
 - `site/` — static local editor: pick animal/traits, nudge per-animal
   offsets, copy/paste the placements JSON
 - `output/` — 25-edition sample; `output-3333/` — the full 3,333 run

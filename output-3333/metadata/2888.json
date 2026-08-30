@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
@@ -19,15 +19,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,11 +35,11 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Hoop Earring"
     }
   ]
 }

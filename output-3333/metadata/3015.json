@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
@@ -27,11 +27,11 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "None"
     }
   ]
 }

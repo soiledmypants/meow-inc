@@ -11,11 +11,11 @@
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
@@ -23,11 +23,11 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Midnight Tuxedo"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,11 +35,11 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Neck Chain"
     }
   ]
 }

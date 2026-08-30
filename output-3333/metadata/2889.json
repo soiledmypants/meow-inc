@@ -19,27 +19,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Cheek Star"
     }
   ]
 }

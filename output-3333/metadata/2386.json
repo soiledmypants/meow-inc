@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Elevator"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
@@ -27,7 +27,7 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Neck Chain"
     }
   ]
 }

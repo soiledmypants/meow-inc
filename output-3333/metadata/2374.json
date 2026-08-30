@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Ink Bow Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "Neck Chain"
     }
   ]
 }

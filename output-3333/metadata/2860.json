@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Elevator"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
@@ -19,11 +19,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Midnight Tuxedo"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
@@ -31,15 +31,15 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Hoop Earring"
     }
   ]
 }

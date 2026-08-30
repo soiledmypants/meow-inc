@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
@@ -23,11 +23,11 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",

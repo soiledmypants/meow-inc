@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunrise Orbit"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Cheek Star"
     }
   ]
 }

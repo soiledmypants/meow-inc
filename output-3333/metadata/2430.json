@@ -7,27 +7,27 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Red Fox"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Cheek Star"
     }
   ]
 }

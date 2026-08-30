@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Boardroom"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Lavender Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Hoop Earring"
     }
   ]
 }

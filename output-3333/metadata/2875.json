@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Night Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
@@ -23,23 +23,23 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Charcoal Pinstripe"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "None"
     }
   ]
 }

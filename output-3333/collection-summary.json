@@ -5,25 +5,32 @@
   "logical_size": 32,
   "output_size": 1024,
   "base_image_uri": "ipfs://REPLACE_AFTER_UPLOAD/",
-  "possible_combinations": 18432000,
-  "generated_at": "2026-08-30T14:05:24+00:00",
+  "possible_combinations": 34560000,
+  "generated_at": "2026-08-30T14:46:06+00:00",
   "trait_counts": {
     "Background": {
-      "Deep Space": 524,
-      "Rose Nebula": 505,
-      "Hyperlane Teal": 492,
-      "Signal Mint": 446,
-      "Docking Bay": 445,
-      "Plasma Violet": 323,
-      "Aurora Night": 354,
-      "Sunrise Orbit": 244
+      "Deep Space": 352,
+      "Rose Nebula": 280,
+      "Hyperlane Teal": 313,
+      "Signal Mint": 297,
+      "Docking Bay": 279,
+      "Plasma Violet": 193,
+      "Aurora Night": 189,
+      "Sunrise Orbit": 119,
+      "Cubicle Farm": 252,
+      "Night Office": 229,
+      "Boardroom": 182,
+      "Elevator": 185,
+      "Trading Floor": 182,
+      "Server Room": 151,
+      "Corner Office": 130
     },
     "Animal": {
       "Tabby Cat": 702,
       "Ash Dog": 706,
-      "Honey Bear": 718,
+      "Honey Bear": 717,
       "Snow Rabbit": 697,
-      "Red Fox": 510
+      "Red Fox": 511
     },
     "Eyes": {
       "Steady": 952,
@@ -42,20 +49,20 @@
       "Toothpick": 170
     },
     "Suit": {
-      "Navy Suit": 675,
+      "Navy Suit": 676,
       "Charcoal Pinstripe": 492,
       "Burgundy Suit": 514,
       "Forest Suit": 443,
       "Sky Suit": 467,
       "Lavender Suit": 325,
-      "Trench Coat": 245,
+      "Trench Coat": 244,
       "Midnight Tuxedo": 172
     },
     "Tie": {
       "Red Tie": 764,
       "Gold Tie": 627,
-      "Teal Tie": 607,
-      "Magenta Tie": 465,
+      "Teal Tie": 606,
+      "Magenta Tie": 466,
       "Candy Stripe Tie": 324,
       "Royal Dot Tie": 240,
       "Red Bow Tie": 177,
@@ -65,17 +72,17 @@
       "None": 960,
       "Dock Beanie": 540,
       "Flat Cap": 561,
-      "Bowler Hat": 387,
-      "Courier Cap": 432,
+      "Bowler Hat": 386,
+      "Courier Cap": 433,
       "Top Hat": 225,
       "Comms Halo": 182,
       "Gold Crown": 46
     },
     "Eyewear": {
-      "None": 1618,
+      "None": 1619,
       "Round Glasses": 789,
       "Visor Shades": 505,
-      "Scanner Monocle": 246,
+      "Scanner Monocle": 245,
       "Eye Patch": 175
     },
     "Accessory": {

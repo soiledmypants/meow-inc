@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starry"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
@@ -23,15 +23,15 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Burgundy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Neck Chain"
     }
   ]
 }

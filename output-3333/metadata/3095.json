@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Signal Mint"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Red Fox"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Lavender Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Stud Earring"
     }
   ]
 }

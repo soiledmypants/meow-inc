@@ -7,31 +7,31 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Elevator"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Neck Chain"
     }
   ]
 }

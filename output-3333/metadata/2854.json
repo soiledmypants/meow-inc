@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Plasma Violet"
+      "value": "Docking Bay"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Burgundy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "None"
     }
   ]
 }

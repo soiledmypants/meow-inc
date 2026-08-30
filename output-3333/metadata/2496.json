@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunrise Orbit"
+      "value": "Cubicle Farm"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
@@ -19,27 +19,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Scanner Monocle"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "Neck Chain"
     }
   ]
 }

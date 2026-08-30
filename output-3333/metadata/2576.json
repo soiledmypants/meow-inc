@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
@@ -23,23 +23,23 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Cheek Star"
     }
   ]
 }

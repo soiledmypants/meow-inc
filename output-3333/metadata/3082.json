@@ -7,35 +7,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Docking Bay"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Charcoal Pinstripe"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Comms Halo"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",

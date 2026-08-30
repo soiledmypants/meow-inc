@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Cubicle Farm"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Burgundy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Courier Cap"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Cheek Star"
     }
   ]
 }

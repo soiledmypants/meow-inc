@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Aurora Night"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
@@ -23,23 +23,23 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Candy Stripe Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Stud Earring"
     }
   ]
 }

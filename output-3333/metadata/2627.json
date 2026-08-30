@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Docking Bay"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
@@ -19,11 +19,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Charcoal Pinstripe"
     },
     {
       "trait_type": "Tie",
@@ -31,7 +31,7 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "Stud Earring"
     }
   ]
 }

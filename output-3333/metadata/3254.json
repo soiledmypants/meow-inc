@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
@@ -19,27 +19,27 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Comms Halo"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Hoop Earring"
     }
   ]
 }

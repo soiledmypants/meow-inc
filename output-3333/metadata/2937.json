@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Corner Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Starry"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Bow Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Cheek Star"
     }
   ]
 }

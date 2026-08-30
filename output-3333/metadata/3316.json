@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
@@ -15,31 +15,31 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Charcoal Pinstripe"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Comms Halo"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "None"
+      "value": "Neck Chain"
     }
   ]
 }

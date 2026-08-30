@@ -7,23 +7,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Elevator"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
@@ -31,7 +31,7 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Top Hat"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Stud Earring"
     }
   ]
 }

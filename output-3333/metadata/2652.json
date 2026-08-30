@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunrise Orbit"
+      "value": "Night Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Serene"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
@@ -27,19 +27,19 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Gold Crown"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Neck Chain"
+      "value": "Stud Earring"
     }
   ]
 }

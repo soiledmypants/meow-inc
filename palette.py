@@ -20,6 +20,14 @@ BG = {
     "plasma_violet": (126, 96, 172),
     "aurora_night": (24, 44, 66),
     "sunrise_bottom": (94, 74, 138),
+    # office wing (drawn from the art-refs/ set + originals)
+    "cubicle": (110, 116, 136),
+    "night_office": (58, 55, 82),
+    "boardroom": (16, 70, 56),
+    "elevator": (132, 136, 148),
+    "trading_floor": (30, 34, 48),
+    "server_room": (16, 16, 26),
+    "corner_office": (222, 138, 92),
 }
 # background motif colors (edge decorations only)
 BGFX = {
@@ -31,6 +39,29 @@ BGFX = {
     "aurora2": (150, 220, 200),
     "sunrise_top": (232, 148, 96),
     "sunrise_band": (214, 108, 108),
+    # office wing motifs
+    "win_space": (16, 14, 26),
+    "win_frame": (40, 38, 60),
+    "haze_deep": (150, 96, 122),
+    "plant": (84, 160, 110),
+    "plant_dark": (58, 118, 80),
+    "pot": (128, 88, 50),
+    "cubicle_light": (150, 156, 174),
+    "cubicle_dark": (78, 84, 102),
+    "trim_wood": (166, 108, 52),
+    "board_dark": (10, 48, 40),
+    "rack": (42, 44, 58),
+    "rack_dark": (28, 30, 40),
+    "sunset_high": (240, 180, 110),
+    "sun": (246, 214, 120),
+    "city": (54, 48, 80),
+    "board": (18, 20, 30),
+    "tick_green": (94, 200, 120),
+    "desk_line": (48, 52, 70),
+    "steel_light": (196, 198, 206),
+    "steel_seam": (114, 118, 132),
+    "steel_dark": (90, 92, 104),
+    "panel_dark": (60, 62, 74),
 }
 
 # animals: (fur, shade, muzzle)

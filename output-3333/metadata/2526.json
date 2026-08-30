@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Sunrise Orbit"
+      "value": "Hyperlane Teal"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
@@ -19,15 +19,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Ink Bow Tie"
     },
     {
       "trait_type": "Hat",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

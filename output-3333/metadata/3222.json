@@ -7,27 +7,27 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Trading Floor"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Blep"
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Ink Bow Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,11 +35,11 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Scanner Monocle"
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "None"
     }
   ]
 }

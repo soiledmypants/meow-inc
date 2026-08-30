@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Sunrise Orbit"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Red Fox"
     },
     {
       "trait_type": "Eyes",
@@ -19,7 +19,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
@@ -27,19 +27,19 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

@@ -7,23 +7,23 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
-      "value": "Honey Bear"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Trench Coat"
+      "value": "Burgundy Suit"
     },
     {
       "trait_type": "Tie",
@@ -31,15 +31,15 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Stud Earring"
     }
   ]
 }

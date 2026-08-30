@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Aurora Night"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Midnight Tuxedo"
+      "value": "Burgundy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Ink Bow Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Scanner Monocle"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "Hoop Earring"
     }
   ]
 }

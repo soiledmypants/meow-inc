@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Meow Inc — Collection Gallery</title>
+<style>
+  :root {
+    --bg: #14131f; --panel: #1e1d2e; --panel2: #262538; --line: #35334d;
+    --text: #e8e6f0; --dim: #9a97b0; --accent: #f4c64a; --teal: #40c6bc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.5 ui-monospace, Menlo, Consolas, monospace;
+  }
+  header {
+    position: sticky; top: 0; z-index: 5; background: var(--bg);
+    border-bottom: 1px solid var(--line); padding: 14px 20px;
+  }
+  h1 { font-size: 16px; margin: 0; color: var(--accent); display: inline; }
+  .count { color: var(--dim); font-size: 12px; margin-left: 10px; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; align-items: center; }
+  select, input[type="text"] {
+    background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+    border-radius: 6px; padding: 4px 8px; font: inherit; font-size: 12px;
+  }
+  select:hover { border-color: var(--accent); }
+  #clearBtn {
+    background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+    border-radius: 6px; padding: 4px 10px; cursor: pointer; font: inherit; font-size: 12px;
+  }
+  #clearBtn:hover { border-color: var(--accent); }
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px; padding: 20px; max-width: 1400px; margin: 0 auto;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+    padding: 8px; cursor: pointer; text-align: center;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card img {
+    width: 100%; aspect-ratio: 1; image-rendering: pixelated;
+    border-radius: 6px; background: #000; display: block;
+  }
+  .card .name { font-size: 12px; margin-top: 6px; color: var(--dim); }
+  #sentinel { height: 1px; }
+  /* modal */
+  #modal {
+    display: none; position: fixed; inset: 0; z-index: 10;
+    background: rgba(10, 9, 18, .85); align-items: center; justify-content: center; padding: 20px;
+  }
+  #modal.open { display: flex; }
+  .sheet {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px; display: flex; gap: 18px; max-width: 780px; width: 100%;
+    flex-wrap: wrap; justify-content: center;
+  }
+  .sheet img {
+    width: 320px; max-width: 100%; aspect-ratio: 1; image-rendering: pixelated;
+    border-radius: 8px; background: #000;
+  }
+  .sheet .info { flex: 1; min-width: 240px; }
+  .sheet h2 { margin: 0 0 10px; font-size: 15px; color: var(--accent); }
+  .trait {
+    display: flex; justify-content: space-between; gap: 10px;
+    padding: 5px 8px; border-radius: 6px;
+  }
+  .trait:nth-child(odd) { background: var(--panel2); }
+  .trait .cat { color: var(--dim); font-size: 12px; }
+  .trait .val { text-align: right; }
+  .trait .pct { color: var(--teal); font-size: 11px; margin-left: 8px; }
+  .navrow { display: flex; gap: 8px; margin-top: 12px; }
+  .navrow button {
+    background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+    border-radius: 6px; padding: 5px 12px; cursor: pointer; font: inherit; font-size: 13px;
+  }
+  .navrow button:hover { border-color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Meow Inc — collection gallery</h1><span class="count" id="countLabel"></span>
+  <div class="filters" id="filters">
+    <input type="text" id="jump" placeholder="#edition" size="8">
+    <button id="clearBtn">clear</button>
+  </div>
+</header>
+<div class="grid" id="grid"></div>
+<div id="sentinel"></div>
+
+<div id="modal">
+  <div class="sheet">
+    <img id="mImg" alt="">
+    <div class="info">
+      <h2 id="mName"></h2>
+      <div id="mTraits"></div>
+      <div class="navrow">
+        <button id="prevBtn">◀ prev</button>
+        <button id="nextBtn">next ▶</button>
+        <button id="closeBtn">close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const OUT = 'output-3333';
+const BATCH = 120;
+let DATA, filtered = [], cursor = 0, modalIdx = -1;
+
+const grid = document.getElementById('grid');
+const countLabel = document.getElementById('countLabel');
+const filtersEl = document.getElementById('filters');
+const modal = document.getElementById('modal');
+
+fetch(OUT + '/gallery-data.json').then(r => r.json()).then(d => {
+  DATA = d;
+  buildFilters();
+  applyFilters();
+});
+
+function pad(n) { return String(n).padStart(4, '0'); }
+function imgUrl(n) { return OUT + '/images/' + pad(n) + '.png'; }
+
+function buildFilters() {
+  const jump = document.getElementById('jump');
+  DATA.categories.forEach((cat, ci) => {
+    const sel = document.createElement('select');
+    sel.dataset.ci = ci;
+    const any = document.createElement('option');
+    any.value = ''; any.textContent = cat + ': all';
+    sel.appendChild(any);
+    Object.entries(DATA.trait_counts[cat]).forEach(([name, count]) => {
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name + ' (' + count + ')';
+      sel.appendChild(o);
+    });
+    sel.addEventListener('change', applyFilters);
+    filtersEl.insertBefore(sel, jump);
+  });
+  jump.addEventListener('keydown', e => {
+    if (e.key !== 'Enter') return;
+    const n = parseInt(jump.value.replace('#', ''), 10);
+    if (n >= 1 && n <= DATA.size) openModalByEdition(n);
+  });
+  document.getElementById('clearBtn').addEventListener('click', () => {
+    filtersEl.querySelectorAll('select').forEach(s => s.value = '');
+    applyFilters();
+  });
+}
+
+function applyFilters() {
+  const active = [...filtersEl.querySelectorAll('select')]
+    .map(s => [Number(s.dataset.ci), s.value])
+    .filter(([, v]) => v);
+  filtered = [];
+  for (let i = 0; i < DATA.editions.length; i++) {
+    const row = DATA.editions[i];
+    if (active.every(([ci, v]) => row[ci] === v)) filtered.push(i + 1);
+  }
+  countLabel.textContent = filtered.length + ' / ' + DATA.size + ' editions';
+  grid.innerHTML = '';
+  cursor = 0;
+  renderMore();
+}
+
+function renderMore() {
+  const end = Math.min(cursor + BATCH, filtered.length);
+  const frag = document.createDocumentFragment();
+  for (; cursor < end; cursor++) {
+    const n = filtered[cursor];
+    const card = document.createElement('div');
+    card.className = 'card';
+    const img = document.createElement('img');
+    img.loading = 'lazy';
+    img.src = imgUrl(n);
+    img.alt = 'Meow Inc #' + pad(n);
+    const name = document.createElement('div');
+    name.className = 'name';
+    name.textContent = '#' + pad(n);
+    card.append(img, name);
+    card.addEventListener('click', () => openModal(filtered.indexOf(n)));
+    frag.appendChild(card);
+  }
+  grid.appendChild(frag);
+}
+
+new IntersectionObserver(es => {
+  if (es[0].isIntersecting && DATA) renderMore();
+}).observe(document.getElementById('sentinel'));
+
+function openModalByEdition(n) {
+  const idx = filtered.indexOf(n);
+  openModal(idx >= 0 ? idx : (filtered = [...Array(DATA.size)].map((_, i) => i + 1), n - 1));
+}
+
+function openModal(idx) {
+  modalIdx = idx;
+  const n = filtered[idx];
+  document.getElementById('mImg').src = imgUrl(n);
+  document.getElementById('mName').textContent = 'Meow Inc #' + pad(n);
+  const traits = document.getElementById('mTraits');
+  traits.innerHTML = '';
+  DATA.categories.forEach((cat, ci) => {
+    const val = DATA.editions[n - 1][ci];
+    const pct = (DATA.trait_counts[cat][val] / DATA.size * 100).toFixed(1);
+    const row = document.createElement('div');
+    row.className = 'trait';
+    const c = document.createElement('span'); c.className = 'cat'; c.textContent = cat;
+    const v = document.createElement('span'); v.className = 'val'; v.textContent = val;
+    const p = document.createElement('span'); p.className = 'pct'; p.textContent = pct + '%';
+    v.appendChild(p);
+    row.append(c, v);
+    traits.appendChild(row);
+  });
+  modal.classList.add('open');
+}
+
+document.getElementById('closeBtn').addEventListener('click', () => modal.classList.remove('open'));
+modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('open'); });
+document.getElementById('prevBtn').addEventListener('click', () => step(-1));
+document.getElementById('nextBtn').addEventListener('click', () => step(1));
+document.addEventListener('keydown', e => {
+  if (!modal.classList.contains('open')) return;
+  if (e.key === 'Escape') modal.classList.remove('open');
+  if (e.key === 'ArrowLeft') step(-1);
+  if (e.key === 'ArrowRight') step(1);
+});
+function step(d) {
+  const next = modalIdx + d;
+  if (next >= 0 && next < filtered.length) openModal(next);
+}
+</script>
+</body>
+</html>

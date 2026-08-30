@@ -7,35 +7,35 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Docking Bay"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Magenta Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Top Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",

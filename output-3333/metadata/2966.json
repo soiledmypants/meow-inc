@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Docking Bay"
+      "value": "Plasma Violet"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Steady"
     },
     {
       "trait_type": "Mouth",
@@ -23,11 +23,11 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Midnight Tuxedo"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
@@ -35,7 +35,7 @@
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",

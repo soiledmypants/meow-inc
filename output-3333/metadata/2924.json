@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Trading Floor"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Red Fox"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Starry"
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
@@ -27,19 +27,19 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

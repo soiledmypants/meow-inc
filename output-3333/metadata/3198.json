@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sleepy"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Blep"
+      "value": "Toothpick"
     },
     {
       "trait_type": "Suit",
@@ -27,7 +27,7 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Gold Tie"
     },
     {
       "trait_type": "Hat",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Neck Chain"
+      "value": "Cheek Star"
     }
   ]
 }

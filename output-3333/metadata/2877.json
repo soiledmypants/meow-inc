@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
-      "value": "Red Fox"
+      "value": "Honey Bear"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
@@ -23,23 +23,23 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Sky Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Teal Tie"
+      "value": "Red Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Bowler Hat"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Scanner Monocle"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "None"
     }
   ]
 }

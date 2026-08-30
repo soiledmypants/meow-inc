@@ -7,15 +7,15 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Hyperlane Teal"
+      "value": "Boardroom"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Starry"
+      "value": "Wide"
     },
     {
       "trait_type": "Mouth",
@@ -23,15 +23,15 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Sky Suit"
+      "value": "Charcoal Pinstripe"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Teal Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Gold Crown"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",

@@ -7,11 +7,11 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Signal Mint"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
-      "value": "Tabby Cat"
+      "value": "Red Fox"
     },
     {
       "trait_type": "Eyes",
@@ -19,11 +19,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Grin"
+      "value": "Line"
     },
     {
       "trait_type": "Suit",
-      "value": "Lavender Suit"
+      "value": "Charcoal Pinstripe"
     },
     {
       "trait_type": "Tie",
@@ -31,7 +31,7 @@
     },
     {
       "trait_type": "Hat",
-      "value": "None"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",

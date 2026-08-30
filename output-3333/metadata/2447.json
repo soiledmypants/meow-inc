@@ -7,7 +7,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Animal",
@@ -15,7 +15,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Serene"
     },
     {
       "trait_type": "Mouth",
@@ -23,15 +23,15 @@
     },
     {
       "trait_type": "Suit",
-      "value": "Forest Suit"
+      "value": "Navy Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Red Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",

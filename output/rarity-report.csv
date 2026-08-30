@@ -1,12 +1,19 @@
 category,trait,weight,count,percent
-Background,Deep Space,100,4,16.0
-Background,Rose Nebula,90,4,16.0
-Background,Hyperlane Teal,90,6,24.0
-Background,Signal Mint,90,3,12.0
+Background,Deep Space,100,2,8.0
+Background,Rose Nebula,90,3,12.0
+Background,Hyperlane Teal,90,3,12.0
+Background,Signal Mint,90,4,16.0
 Background,Docking Bay,80,2,8.0
-Background,Plasma Violet,60,0,0.0
-Background,Aurora Night,60,4,16.0
-Background,Sunrise Orbit,40,2,8.0
+Background,Plasma Violet,60,2,8.0
+Background,Aurora Night,60,1,4.0
+Background,Sunrise Orbit,40,0,0.0
+Background,Cubicle Farm,75,2,8.0
+Background,Night Office,65,0,0.0
+Background,Boardroom,55,0,0.0
+Background,Elevator,55,2,8.0
+Background,Trading Floor,45,2,8.0
+Background,Server Room,40,1,4.0
+Background,Corner Office,35,1,4.0
 Animal,Tabby Cat,100,11,44.0
 Animal,Ash Dog,100,3,12.0
 Animal,Honey Bear,100,5,20.0

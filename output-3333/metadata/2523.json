@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Aurora Night"
+      "value": "Corner Office"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Tabby Cat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Wide"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Line"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
-      "value": "Burgundy Suit"
+      "value": "Forest Suit"
     },
     {
       "trait_type": "Tie",
-      "value": "Candy Stripe Tie"
+      "value": "Magenta Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Courier Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Round Glasses"
+      "value": "None"
     },
     {
       "trait_type": "Accessory",
-      "value": "Stud Earring"
+      "value": "Hoop Earring"
     }
   ]
 }

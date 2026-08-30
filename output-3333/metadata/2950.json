@@ -7,19 +7,19 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Cubicle Farm"
     },
     {
       "trait_type": "Animal",
-      "value": "Ash Dog"
+      "value": "Snow Rabbit"
     },
     {
       "trait_type": "Eyes",
-      "value": "Sideeye"
+      "value": "Sleepy"
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Smile"
     },
     {
       "trait_type": "Suit",
@@ -27,15 +27,15 @@
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Royal Dot Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Bowler Hat"
+      "value": "Dock Beanie"
     },
     {
       "trait_type": "Eyewear",
-      "value": "None"
+      "value": "Visor Shades"
     },
     {
       "trait_type": "Accessory",

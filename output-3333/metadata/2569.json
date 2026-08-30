@@ -15,11 +15,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Starry"
     },
     {
       "trait_type": "Mouth",
-      "value": "Toothpick"
+      "value": "Grin"
     },
     {
       "trait_type": "Suit",
@@ -31,7 +31,7 @@
     },
     {
       "trait_type": "Hat",
-      "value": "Flat Cap"
+      "value": "None"
     },
     {
       "trait_type": "Eyewear",
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Accessory",
-      "value": "Hoop Earring"
+      "value": "None"
     }
   ]
 }

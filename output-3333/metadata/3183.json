@@ -7,39 +7,39 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Rose Nebula"
+      "value": "Docking Bay"
     },
     {
       "trait_type": "Animal",
-      "value": "Snow Rabbit"
+      "value": "Ash Dog"
     },
     {
       "trait_type": "Eyes",
-      "value": "Steady"
+      "value": "Sideeye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Frown"
     },
     {
       "trait_type": "Suit",
-      "value": "Navy Suit"
+      "value": "Trench Coat"
     },
     {
       "trait_type": "Tie",
-      "value": "Gold Tie"
+      "value": "Red Bow Tie"
     },
     {
       "trait_type": "Hat",
-      "value": "Dock Beanie"
+      "value": "Flat Cap"
     },
     {
       "trait_type": "Eyewear",
-      "value": "Visor Shades"
+      "value": "Round Glasses"
     },
     {
       "trait_type": "Accessory",
-      "value": "Cheek Star"
+      "value": "None"
     }
   ]
 }
